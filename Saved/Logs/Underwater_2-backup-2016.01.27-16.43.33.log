@@ -1,0 +1,905 @@
+﻿[2016.01.18-03.31.05:720][  0]Log file open, 01/17/16 19:31:05
+[2016.01.18-03.31.05:720][  0]LogInit:Display: Running engine for game: Underwater
+[2016.01.18-03.31.05:720][  0]LogInit:Display: RandInit(-940516912) SRandInit(-940516911).
+[2016.01.18-03.31.05:720][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.18-03.31.05:720][  0]LogStats: Stats thread started at 0.073985
+[2016.01.18-03.31.05:720][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.18-03.31.05:720][  0]LogInit: API Version: 2672455
+[2016.01.18-03.31.05:721][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.18-03.31.05:721][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.18-03.31.05:721][  0]LogInit: Build Configuration: Development
+[2016.01.18-03.31.05:721][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.18-03.31.05:721][  0]LogInit: Command line:  
+[2016.01.18-03.31.05:721][  0]LogInit: Base directory: F:/Unreal Engine/4.9/Engine/Binaries/Win64/
+[2016.01.18-03.31.05:721][  0]LogInit: Rocket: 1
+[2016.01.18-03.31.05:729][  0]LogInit: Using libcurl 7.41.0
+[2016.01.18-03.31.05:729][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.18-03.31.05:729][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.18-03.31.05:729][  0]LogInit:  - other features:
+[2016.01.18-03.31.05:729][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.18-03.31.05:729][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.18-03.31.05:729][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.18-03.31.05:729][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.18-03.31.05:729][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.18-03.31.05:729][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.18-03.31.05:729][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.18-03.31.05:729][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.18-03.31.05:729][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.18-03.31.05:729][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.18-03.31.05:735][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.18-03.31.05:741][  0]LogInit: Object subsystem initialized
+[2016.01.18-03.31.05:742][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.18-03.31.05:742][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.18-03.31.05:749][  0]LogInit: Computer: FUZZFAS
+[2016.01.18-03.31.05:749][  0]LogInit: User: TTK
+[2016.01.18-03.31.05:749][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.18-03.31.05:749][  0]LogInit: High frequency timer resolution =3.417970 MHz
+[2016.01.18-03.31.05:749][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.18-03.31.05:749][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.18-03.31.05:749][  0]LogMemory: Process Physical Memory: 53.02 MB used, 53.02 MB peak
+[2016.01.18-03.31.05:749][  0]LogMemory: Process Virtual Memory: 54.95 MB used, 54.95 MB peak
+[2016.01.18-03.31.05:749][  0]LogMemory: Physical Memory: 6151.15 MB used, 16259.81 MB total
+[2016.01.18-03.31.05:749][  0]LogMemory: Virtual Memory: 348.74 MB used, 134217728.00 MB total
+[2016.01.18-03.31.05:776][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.18-03.31.06:316][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2016.01.18-03.31.06:316][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.01.18-03.31.06:322][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.01.18-03.31.06:322][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.01.18-03.31.06:323][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.18-03.31.06:323][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.18-03.31.06:323][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.18-03.31.06:327][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.18-03.31.06:327][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.18-03.31.06:336][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.18-03.31.06:352][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../Unreal Projects/Underwater/Underwater/Intermediate/Shaders/WorkingDirectory/11412/).
+[2016.01.18-03.31.06:352][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../Unreal Projects/Underwater/Underwater/Intermediate/Shaders/tmp/1D76CBC74F85080B2F3C29B991C5DD20/'.
+[2016.01.18-03.31.06:352][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.18-03.31.07:398][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.18-03.31.07:403][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.18-03.31.07:408][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.18-03.31.07:414][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.18-03.31.07:418][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.18-03.31.07:422][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.18-03.31.07:424][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.18-03.31.07:427][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.18-03.31.07:431][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.18-03.31.07:435][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.18-03.31.07:437][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.18-03.31.07:440][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.18-03.31.07:441][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.18-03.31.07:458][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.18-03.31.07:461][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.18-03.31.07:464][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.18-03.31.07:467][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.18-03.31.07:467][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.18-03.31.07:555][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.18-03.31.07:592][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/TTK/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.18-03.31.07:592][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TTK/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.18-03.31.07:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Underwater/Underwater/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.18-03.31.07:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.18-03.31.07:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Underwater/Underwater/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.18-03.31.07:592][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.18-03.31.07:715][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.18-03.31.07:727][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TTK/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.18-03.31.07:884][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.18-03.31.07:886][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.18-03.31.07:992][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.18-03.31.07:992][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.18-03.31.08:220][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.18-03.31.08:915][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.18-03.31.09:016][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2016.01.18-03.31.09:184][  0]SourceControl: Info Source control is disabled
+[2016.01.18-03.31.09:185][  0]SourceControl: Info Source control is disabled
+[2016.01.18-03.31.09:199][  0]SourceControl: Info Source control is disabled
+[2016.01.18-03.31.09:212][  0]SourceControl: Info Source control is disabled
+[2016.01.18-03.31.09:381][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.18-03.31.09:468][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.18-03.31.09:468][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.01.18-03.31.09:519][  0]LogEngine: Initializing Engine...
+[2016.01.18-03.31.09:521][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.18-03.31.09:525][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.01.18-03.31.09:637][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.18-03.31.09:656][  0]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-03.31.09:661][  0]LogInit: FAudioDevice initialized.
+[2016.01.18-03.31.09:680][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/TTK/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.18-03.31.09:683][  0]LogInit: Texture streaming: Enabled
+[2016.01.18-03.31.09:688][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.18-03.31.09:688][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.18-03.31.09:688][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0db2d34c447d6a0740feffb07e0a1a0e|bc4a3a77a60f4285ab2f87c6bbd9b21d|9467dba4-6da6-46b3-81d1-f47674c1afd9
+[2016.01.18-03.31.09:688][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.18-03.31.09:743][  0]LogInit: Transaction tracking system initialized
+[2016.01.18-03.31.09:777][  0]BlueprintLog: New page: Editor Load
+[2016.01.18-03.31.09:861][  0]LocalizationService: Info Localization service is disabled
+[2016.01.18-03.31.09:950][  0]LogConsoleResponse:Display: 
+[2016.01.18-03.31.10:071][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.18-03.31.10:143][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/Underwater/Underwater/Content/' took 0.02s
+[2016.01.18-03.31.10:143][  0]SourceControl: Info Source control is disabled
+[2016.01.18-03.31.19:493][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.18-03.31.19:510][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.18-03.31.23:229][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.18-03.31.23:249][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.18-03.31.23:261][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.18-03.31.23:347][  0]LightingResults: New page: Lighting Build
+[2016.01.18-03.31.23:432][  0]MapCheck: New page: Map Check
+[2016.01.18-03.31.23:432][  0]LightingResults: New page: Lighting Build
+[2016.01.18-03.31.23:441][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAA953DDA0
+[2016.01.18-03.31.23:871][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.18-03.31.23:874][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.18-03.31.25:123][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.18-03.31.25:267][  0]LogEditorServer: Finished looking for orphan Actors (0.009 secs)
+[2016.01.18-03.31.25:274][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.18-03.31.25:357][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.85ms to complete.
+[2016.01.18-03.31.25:357][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.096
+[2016.01.18-03.31.25:803][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.18-03.31.26:135][  0]LogCollectionManager: Loaded 0 collections in 0.002336 seconds
+[2016.01.18-03.31.26:207][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/Underwater/Underwater/Saved/Collections/' took 0.01s
+[2016.01.18-03.31.26:207][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/Underwater/Underwater/Content/Developers/TTK/Collections/' took 0.01s
+[2016.01.18-03.31.26:207][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/Underwater/Underwater/Content/Collections/' took 0.01s
+[2016.01.18-03.31.26:207][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1867 classes and 333 folders.
+[2016.01.18-03.31.26:290][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.18-03.31.26:359][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.18-03.31.27:557][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.18-03.31.27:596][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.18-03.31.27:925][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.18-03.31.27:964][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.18-03.31.28:020][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_297c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_8a4_0///####STATCAT_Advanced####
+[2016.01.18-03.31.28:020][  0]LogLoad: Full Startup: 22.85 seconds (BP compile: 0.33 seconds)
+[2016.01.18-03.31.28:220][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.18-03.31.28:474][  0]LogRenderer: Reallocating scene render targets to support 1092x576 (Frame:2).
+[2016.01.18-03.31.28:747][  6]LogAssetRegistry: Asset discovery search completed in 19.7418 seconds
+[2016.01.18-03.31.28:747][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.18-03.31.28:747][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.01.18-03.31.34:941][524]LogBlueprint:Error: [compiler LiquidSphere2] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.01.18-03.31.34:946][524]LogBlueprint:Warning: [compiler LiquidSphere2] Warning [0029.77] Compile of LiquidSphere2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2016.01.18-03.31.34:946][524]LogBlueprint:Warning: [compiler LiquidSphere2] Warning [0029.78] Compile of LiquidSphere2 failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.01.18-03.31.34:946][524]LogBlueprint:Warning: [compiler LiquidSphere2] Warning [0029.78] Compile of LiquidSphere2 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.01.18-03.31.35:008][524]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.18-03.31.35:599][524]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.01.18-03.43.52:006][855]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-03.43.52:054][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-03.43.52:055][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-03.43.52:104][855]BlueprintEditorCompileResults: Info [0766.93] Compile of LiquidSphere2 successful! [in 97 ms]
+[2016.01.18-03.43.52:504][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-03.43.52:555][883]LogSavePackage: Save=28.495569ms
+[2016.01.18-03.43.52:555][883]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2FABE835D454BC7CACC4AA7ABC9989627.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-03.43.52:557][883]LogSavePackage: Total save time: 51.494308ms
+[2016.01.18-03.43.52:557][883]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-03.48.41:819][757]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-03.48.41:819][757]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-03.48.41:852][757]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.18-03.48.41:865][757]LightingResults: New page: Lighting Build
+[2016.01.18-03.48.41:884][757]LoadErrors: New page: Loading map: Level_1.umap
+[2016.01.18-03.48.41:884][757]MapCheck: New page: Map Check
+[2016.01.18-03.48.41:884][757]LightingResults: New page: Lighting Build
+[2016.01.18-03.48.41:906][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FA95408220
+[2016.01.18-03.48.41:953][757]LogK2Compiler:Warning: Failed to patch linker table for blueprint CDO Default__Level_C
+[2016.01.18-03.48.42:170][757]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-03.48.42:245][757]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.18-03.48.42:282][757]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.18-03.48.42:356][757]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.111ms to complete.
+[2016.01.18-03.48.42:356][757]LogFileHelpers: Loading map 'Level_1' took 0.506
+[2016.01.18-03.48.44:520][898]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.01.18-03.48.46:884][ 31]LogEditorViewport: Clicking on Actor (LMB): PhysicsVolume (PhysicsVolume)
+[2016.01.18-03.49.45:164][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-03.49.45:165][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-03.49.54:145][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.18-03.53.45:744][431]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.18-03.53.45:973][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.18-03.53.45:973][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-03.53.45:973][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2016.01.18-03.53.46:010][431]BlueprintEditorCompileResults: Info [1360.84] Compile of FirstPersonCharacter successful! [in 266 ms]
+[2016.01.18-03.53.47:254][495]LogSavePackage: Save=177.615082ms
+[2016.01.18-03.53.47:254][495]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/FirstPersonCharacterDB756236458E193B7E2E419187B693C9.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.18-03.53.47:255][495]LogSavePackage: Total save time: 188.889310ms
+[2016.01.18-03.53.47:255][495]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.18-03.55.29:557][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-03.55.39:990][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.18-03.55.45:888][624]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.18-03.55.46:090][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.18-03.55.46:128][624]BlueprintEditorCompileResults: Info [1480.96] Compile of FirstPersonCharacter successful! [in 240 ms]
+[2016.01.18-03.58.42:380][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-03.58.42:422][622]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Level_1' took 0.042
+[2016.01.18-03.58.42:427][622]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2016.01.18-03.58.42:443][622]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2016.01.18-03.58.42:443][622]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2016.01.18-03.58.42:688][622]LogSavePackage: Save=231.257156ms
+[2016.01.18-03.58.42:688][622]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/FirstPersonCharacter_Auto17E8781AD400375943D99BBB54BF0654A.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2016.01.18-03.58.42:689][622]LogSavePackage: Total save time: 244.716894ms
+[2016.01.18-03.58.42:689][622]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2016.01.18-03.58.42:689][622]LogFileHelpers: Auto-saving content packages took 0.266
+[2016.01.18-03.59.56:642][ 60]LogSavePackage: Save=209.903244ms
+[2016.01.18-03.59.56:642][ 60]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/FirstPersonCharacterC99389174984D0D83A034A81BAF2C0AD.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.18-03.59.56:643][ 60]LogSavePackage: Total save time: 220.169868ms
+[2016.01.18-03.59.56:643][ 60]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.18-04.00.07:328][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.01.15:820][135]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.01.33:549][505]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.01.49:510][683]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.01.56:804][221]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.02.03:926][761]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.02.05:753][896]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.02.05:761][896]LogBlueprint:Error: [compiler LiquidSphere2] Error This blueprint (self) is not a PhysicsVolume, therefore ' Target ' must have a connection.
+[2016.01.18-04.02.05:775][896]LogBlueprint:Error: [compiler LiquidSphere2] Error Variable node  Set bWaterVolume  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.01.18-04.02.05:893][896]LogBlueprint:Warning: [compiler LiquidSphere2] Warning [1860.72] Compile of LiquidSphere2 failed. 2 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2016.01.18-04.02.05:893][896]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PhysicsVolume, therefore ' Target ' must have a connection.
+[2016.01.18-04.02.05:893][896]BlueprintEditorCompileResults:Error: Error Variable node  Set bWaterVolume  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.01.18-04.02.05:893][896]BlueprintEditorCompileResults:Warning: Warning [1860.72] Compile of LiquidSphere2 failed. 2 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2016.01.18-04.02.06:299][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.02.06:443][925]LogSavePackage: Save=116.906822ms
+[2016.01.18-04.02.06:444][925]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere223B4D9B144FD1833A7D6628FCAFCB950.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.02.06:448][925]LogSavePackage: Total save time: 131.958734ms
+[2016.01.18-04.02.06:448][925]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.03.45:664][613]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.46:355][666]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.47:527][759]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.51:566][ 37]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.52:495][110]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.53:403][180]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.56:347][387]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.57:137][435]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.03.58:097][514]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.00:810][716]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.02:110][811]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.03:615][924]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.26:185][596]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.04.26:193][596]LogBlueprint:Error: [compiler LiquidSphere2] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.01.18-04.04.26:320][596]LogBlueprint:Warning: [compiler LiquidSphere2] Warning [2001.15] Compile of LiquidSphere2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 135 ms]
+[2016.01.18-04.04.26:320][596]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.01.18-04.04.26:320][596]BlueprintEditorCompileResults:Warning: Warning [2001.15] Compile of LiquidSphere2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 135 ms]
+[2016.01.18-04.04.26:948][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.04.26:997][642]LogSavePackage: Save=40.585201ms
+[2016.01.18-04.04.26:997][642]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2F1A9A1CA46F6E3D2D1B69D847C1E9985.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.04.26:999][642]LogSavePackage: Total save time: 50.347723ms
+[2016.01.18-04.04.26:999][642]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.04.34:422][194]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.37:772][434]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.04.37:870][434]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.37:870][434]BlueprintEditorCompileResults: Info [2012.70] Compile of LiquidSphere2 successful! [in 98 ms]
+[2016.01.18-04.04.37:898][434]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.38:864][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.04.38:910][505]LogSavePackage: Save=38.313385ms
+[2016.01.18-04.04.38:910][505]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2341A8BB6425281A96423B18999D638DC.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.04.38:912][505]LogSavePackage: Total save time: 47.438096ms
+[2016.01.18-04.04.38:912][505]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.04.54:419][  1]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.54:419][  1]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.04.54:420][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.04.54:450][  1]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:04:54 PM)
+[2016.01.18-04.04.54:450][  1]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.04.54:457][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006630s)
+[2016.01.18-04.04.54:458][  1]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.04.54:458][  1]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2016.01.18-04.04.54:458][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.007771s)
+[2016.01.18-04.04.54:458][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-04.04.54:458][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.04.54:459][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.04.54:524][  1]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.04.54:527][  1]LogInit: FAudioDevice initialized.
+[2016.01.18-04.04.54:652][  1]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.04.54:656][  1]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.04.54
+[2016.01.18-04.04.54:656][  1]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.04.54:656][  1]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.04.54:656][  1]LogWorld: Bringing up level for play took: 0.002667
+[2016.01.18-04.04.54:685][  1]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 0.586
+[2016.01.18-04.04.54:685][  1]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.04.54:795][  1]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.04.54:821][  2]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077661 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_12'
+[2016.01.18-04.05.08:274][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.05.08:285][109]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.05.08:330][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.05.08:445][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAB1DDE480
+[2016.01.18-04.05.08:445][109]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.05.18:244][725]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.06.27:244][162]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.32:952][550]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.06.33:048][550]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.33:049][550]BlueprintEditorCompileResults: Info [2127.88] Compile of LiquidSphere2 successful! [in 96 ms]
+[2016.01.18-04.06.33:075][550]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.33:465][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.06.33:518][574]LogSavePackage: Save=40.628796ms
+[2016.01.18-04.06.33:518][574]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2B1B4DEBC48CA95BB5809BA880A2D39FE.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.06.33:522][574]LogSavePackage: Total save time: 56.314711ms
+[2016.01.18-04.06.33:522][574]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.06.38:597][881]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.41:901][ 84]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.43:288][178]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.45:197][307]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.06.45:305][307]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.45:306][307]BlueprintEditorCompileResults: Info [2140.14] Compile of LiquidSphere2 successful! [in 108 ms]
+[2016.01.18-04.06.45:329][307]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.06.45:685][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.06.45:730][328]LogSavePackage: Save=37.339123ms
+[2016.01.18-04.06.45:730][328]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2E7F1FD24480C8D937C4FF781485B6BB8.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.06.45:734][328]LogSavePackage: Total save time: 48.424356ms
+[2016.01.18-04.06.45:734][328]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.06.46:747][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.06.46:747][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.06.46:747][392]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:06:46 PM)
+[2016.01.18-04.06.46:747][392]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.06.46:753][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005758s)
+[2016.01.18-04.06.46:753][392]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.06.46:754][392]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2016.01.18-04.06.46:754][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.006983s)
+[2016.01.18-04.06.46:806][392]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.06.46:809][392]LogInit: FAudioDevice initialized.
+[2016.01.18-04.06.46:845][392]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.06.46:848][392]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.06.46
+[2016.01.18-04.06.46:848][392]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.06.46:848][392]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.06.46:849][392]LogWorld: Bringing up level for play took: 0.002546
+[2016.01.18-04.06.46:852][392]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 0.752
+[2016.01.18-04.06.46:852][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.07.03:659][680]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.07.03:669][680]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.07.03:720][680]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.07.03:745][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAD3397740
+[2016.01.18-04.07.03:798][680]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.07.07:039][905]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.07.20:049][798]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.07.30:337][514]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.07.40:077][168]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PostProcessComponent'
+[2016.01.18-04.07.48:503][786]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.07.52:536][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.07.52:595][ 63]LogSavePackage: Save=50.800327ms
+[2016.01.18-04.07.52:595][ 63]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2A82505D7490AE6F56E6FB5B38B7A8436.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.07.52:597][ 63]LogSavePackage: Total save time: 60.943775ms
+[2016.01.18-04.07.52:597][ 63]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.08.16:993][746]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.08.19:051][889]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.08.21:825][ 74]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.08.26:104][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.08.26:151][374]LogSavePackage: Save=35.113533ms
+[2016.01.18-04.08.26:151][374]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2964A208248240C755EDDCBB805527F19.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.08.26:153][374]LogSavePackage: Total save time: 47.924351ms
+[2016.01.18-04.08.26:153][374]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.08.42:840][510]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.09.29:718][505]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.09.45:107][574]LogSavePackage: Save=134.849640ms
+[2016.01.18-04.09.45:107][574]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/Level_1B39495CD46C58C11FB4D258703E8CFE9.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap'
+[2016.01.18-04.09.45:109][574]LogSavePackage: Total save time: 148.648173ms
+[2016.01.18-04.09.45:109][574]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap
+[2016.01.18-04.09.45:149][574]LogFileHelpers: Saving map 'Level_1' took 0.320
+[2016.01.18-04.09.45:172][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.09.45:222][574]LogSavePackage: Save=40.313988ms
+[2016.01.18-04.09.45:222][574]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere22AD8F3454FFC48F9BC596499BFEA52B6.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.09.45:224][574]LogSavePackage: Total save time: 50.800912ms
+[2016.01.18-04.09.45:224][574]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.09.45:927][621]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.09.46:026][621]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.09.46:026][621]BlueprintEditorCompileResults: Info [2320.85] Compile of LiquidSphere2 successful! [in 99 ms]
+[2016.01.18-04.09.46:048][621]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.09.48:402][780]LogSavePackage: Save=77.987228ms
+[2016.01.18-04.09.48:402][780]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/Level_1AB497DFA42CAA8ABE6DCB99CF83FC3CB.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap'
+[2016.01.18-04.09.48:404][780]LogSavePackage: Total save time: 87.975319ms
+[2016.01.18-04.09.48:404][780]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap
+[2016.01.18-04.09.53:647][975]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.18-04.09.53:666][975]LightingResults: New page: Lighting Build
+[2016.01.18-04.09.53:687][975]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2016.01.18-04.09.53:687][975]MapCheck: New page: Map Check
+[2016.01.18-04.09.53:687][975]LightingResults: New page: Lighting Build
+[2016.01.18-04.09.53:791][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FA96418220
+[2016.01.18-04.09.53:870][975]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.18-04.09.54:001][975]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.18-04.09.54:039][975]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.18-04.09.54:118][975]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.735ms to complete.
+[2016.01.18-04.09.54:118][975]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.473
+[2016.01.18-04.10.01:800][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WaterSphere2)
+[2016.01.18-04.10.16:836][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.10.16:837][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.10.16:837][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-04.10.16:841][410]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.10.16:889][410]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.18:155][492]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.18:240][498]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.20:519][661]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.26:147][ 65]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.32:721][520]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.36:347][782]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.50:095][761]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.10.50:203][761]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.50:204][761]BlueprintEditorCompileResults: Info [2385.03] Compile of LiquidSphere2 successful! [in 108 ms]
+[2016.01.18-04.10.50:225][761]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.10.50:616][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.10.50:689][787]LogSavePackage: Save=46.371090ms
+[2016.01.18-04.10.50:689][787]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere29F8A5F8848A0C812BEEDAFAD236CA1FF.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.10.50:691][787]LogSavePackage: Total save time: 57.036195ms
+[2016.01.18-04.10.50:691][787]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.10.57:246][250]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.11.01:013][516]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.11.01:108][516]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.11.01:108][516]BlueprintEditorCompileResults: Info [2395.94] Compile of LiquidSphere2 successful! [in 94 ms]
+[2016.01.18-04.11.01:131][516]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.11.01:521][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.11.01:584][539]LogSavePackage: Save=50.169544ms
+[2016.01.18-04.11.01:584][539]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2EE2B25804C82B2B6376C23A111004E66.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.11.01:587][539]LogSavePackage: Total save time: 64.682253ms
+[2016.01.18-04.11.01:587][539]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.11.02:320][590]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.11.14:544][435]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.11.35:454][819]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.11.36:340][874]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.11.43:796][378]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.11.43:890][378]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.11.43:891][378]BlueprintEditorCompileResults: Info [2438.72] Compile of LiquidSphere2 successful! [in 94 ms]
+[2016.01.18-04.11.43:915][378]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Script/Engine.PhysicsVolume'
+[2016.01.18-04.11.44:386][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.11.44:446][406]LogSavePackage: Save=45.029945ms
+[2016.01.18-04.11.44:446][406]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2371626B2431B16B72B7135A225F41B19.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.11.44:449][406]LogSavePackage: Total save time: 60.891990ms
+[2016.01.18-04.11.44:449][406]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.11.46:752][561]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.11:836][107]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.18:639][492]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.20:338][605]BlueprintLog: New page: Compile LiquidSphere2
+[2016.01.18-04.12.20:436][605]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.20:437][605]BlueprintEditorCompileResults: Info [2475.26] Compile of LiquidSphere2 successful! [in 98 ms]
+[2016.01.18-04.12.20:459][605]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.20:900][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.12.20:961][631]LogSavePackage: Save=51.329884ms
+[2016.01.18-04.12.20:962][631]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere278DA6A5E40EABF9DA92082B5C199D599.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.12.20:964][631]LogSavePackage: Total save time: 63.152399ms
+[2016.01.18-04.12.20:964][631]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.12.27:577][ 49]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.18-04.12.27:598][ 49]LightingResults: New page: Lighting Build
+[2016.01.18-04.12.27:622][ 49]LoadErrors: New page: Loading map: Level_1.umap
+[2016.01.18-04.12.27:623][ 49]MapCheck: New page: Map Check
+[2016.01.18-04.12.27:623][ 49]LightingResults: New page: Lighting Build
+[2016.01.18-04.12.27:658][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAA28C8CC0
+[2016.01.18-04.12.27:685][ 49]LogK2Compiler:Warning: Failed to patch linker table for blueprint CDO Default__Level_C
+[2016.01.18-04.12.27:704][ 49]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.12.27:832][ 49]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.18-04.12.27:878][ 49]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.18-04.12.27:964][ 49]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.029ms to complete.
+[2016.01.18-04.12.27:964][ 49]LogFileHelpers: Loading map 'Level_1' took 0.389
+[2016.01.18-04.12.29:962][196]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.29:963][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.12.29:963][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.12.29:963][196]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:12:29 PM)
+[2016.01.18-04.12.29:963][196]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.12.29:969][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006115s)
+[2016.01.18-04.12.29:970][196]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.12.29:970][196]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2016.01.18-04.12.29:970][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.007035s)
+[2016.01.18-04.12.29:970][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.12.29:971][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.12.30:031][196]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.12.30:036][196]LogInit: FAudioDevice initialized.
+[2016.01.18-04.12.30:071][196]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.12.30:074][196]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.12.30
+[2016.01.18-04.12.30:074][196]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.12.30:075][196]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.12.30:075][196]LogWorld: Bringing up level for play took: 0.003332
+[2016.01.18-04.12.30:078][196]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 -0.022
+[2016.01.18-04.12.30:078][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.12.30:115][196]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.40:547][982]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.12.40:561][982]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.40:590][982]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.12.40:620][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAD328E520
+[2016.01.18-04.12.40:665][982]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere2', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere2.SKEL_LiquidSphere2_C'
+[2016.01.18-04.12.41:873][ 72]LogEditorViewport: Clicking on Actor (LMB): LiquidSphere2_C (LiquidSphere2)
+[2016.01.18-04.12.58:747][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-04.12.58:747][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.12.58:748][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.12.58:773][ 89]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAE5152FC0
+[2016.01.18-04.13.05:850][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.13.05:851][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.13.05:851][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-04.13.05:894][278]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.13.05:895][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/LiquidSphere.LiquidSphere:UserConstructionScript.K2Node_FunctionEntry_111' ref from Metadata '/Game/FirstPersonBP/Blueprints/LiquidSphere2.PackageMetaData'
+[2016.01.18-04.13.05:895][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/LiquidSphere.LiquidSphere_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/LiquidSphere2.PackageMetaData'
+[2016.01.18-04.13.05:895][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/LiquidSphere.LiquidSphere:EventGraph.K2Node_Event_21' ref from Metadata '/Game/FirstPersonBP/Blueprints/LiquidSphere2.PackageMetaData'
+[2016.01.18-04.13.05:895][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/LiquidSphere.LiquidSphere:EventGraph.K2Node_Event_22' ref from Metadata '/Game/FirstPersonBP/Blueprints/LiquidSphere2.PackageMetaData'
+[2016.01.18-04.13.05:895][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/LiquidSphere.LiquidSphere:EventGraph.K2Node_Event_23' ref from Metadata '/Game/FirstPersonBP/Blueprints/LiquidSphere2.PackageMetaData'
+[2016.01.18-04.13.05:895][278]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/LiquidSphere2.PackageMetaData'
+[2016.01.18-04.13.05:950][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset" SILENT=true
+[2016.01.18-04.13.06:013][278]LogSavePackage: Save=61.908676ms
+[2016.01.18-04.13.06:013][278]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphereAA811C5643281FB9E5B755A8D3C17CD7.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset'
+[2016.01.18-04.13.06:014][278]LogSavePackage: Total save time: 63.416883ms
+[2016.01.18-04.13.06:014][278]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset
+[2016.01.18-04.13.06:022][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere2" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset" SILENT=true
+[2016.01.18-04.13.06:056][278]LogSavePackage: Save=1.620553ms
+[2016.01.18-04.13.06:056][278]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere2EEEBFD744632741B165847B6968C47C2.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset'
+[2016.01.18-04.13.06:058][278]LogSavePackage: Total save time: 15.390128ms
+[2016.01.18-04.13.06:058][278]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere2.uasset
+[2016.01.18-04.13.11:037][553]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.13.11:037][553]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.13.11:037][553]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-04.13.11:161][553]LogSavePackage: Save=74.531960ms
+[2016.01.18-04.13.11:161][553]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/Level_1C9ACF8964AE278FA301A5AB27E4BA401.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap'
+[2016.01.18-04.13.11:163][553]LogSavePackage: Total save time: 89.116346ms
+[2016.01.18-04.13.11:163][553]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap
+[2016.01.18-04.13.12:169][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.13.12:169][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.13.12:169][607]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:13:12 PM)
+[2016.01.18-04.13.12:169][607]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.13.12:173][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004443s)
+[2016.01.18-04.13.12:174][607]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.13.12:174][607]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2016.01.18-04.13.12:174][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.005483s)
+[2016.01.18-04.13.12:223][607]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.13.12:230][607]LogInit: FAudioDevice initialized.
+[2016.01.18-04.13.12:263][607]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.13.12:266][607]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.13.12
+[2016.01.18-04.13.12:266][607]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.13.12:267][607]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.13.12:267][607]LogWorld: Bringing up level for play took: 0.002938
+[2016.01.18-04.13.12:271][607]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 0.171
+[2016.01.18-04.13.12:271][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.13.28:813][646]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.13.54:756][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.13.54:769][596]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.13.54:818][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.13.54:853][596]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAE5093F60
+[2016.01.18-04.13.54:913][596]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.14.02:705][105]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.14.09:347][564]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.14.19:223][229]BlueprintLog: New page: Compile LiquidSphere
+[2016.01.18-04.14.19:339][229]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.14.19:340][229]BlueprintEditorCompileResults: Info [2594.17] Compile of LiquidSphere successful! [in 117 ms]
+[2016.01.18-04.14.19:375][229]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.14.19:733][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset" SILENT=true
+[2016.01.18-04.14.19:817][251]LogSavePackage: Save=49.636189ms
+[2016.01.18-04.14.19:817][251]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere0941F8D24F1677E3108A23B38205F936.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset'
+[2016.01.18-04.14.19:820][251]LogSavePackage: Total save time: 64.092722ms
+[2016.01.18-04.14.19:820][251]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset
+[2016.01.18-04.14.20:973][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.14.20:973][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.14.20:973][322]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:14:20 PM)
+[2016.01.18-04.14.20:973][322]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.14.20:979][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005504s)
+[2016.01.18-04.14.20:980][322]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.14.20:980][322]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2016.01.18-04.14.20:980][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.006782s)
+[2016.01.18-04.14.21:040][322]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.14.21:046][322]LogInit: FAudioDevice initialized.
+[2016.01.18-04.14.21:085][322]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.14.21:088][322]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.14.21
+[2016.01.18-04.14.21:088][322]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.14.21:089][322]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.14.21:089][322]LogWorld: Bringing up level for play took: 0.003075
+[2016.01.18-04.14.21:092][322]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 0.993
+[2016.01.18-04.14.21:092][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.14.38:149][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.14.38:158][611]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.14.38:187][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.14.38:213][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAD690CFE0
+[2016.01.18-04.14.38:269][611]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.14.47:711][225]LogRenderer: Reallocating scene render targets to support 1144x712 (Frame:74722).
+[2016.01.18-04.15.34:634][186]BlueprintLog: New page: Compile LiquidSphere
+[2016.01.18-04.15.34:730][186]BlueprintEditorCompileResults: Info [2669.56] Compile of LiquidSphere successful! [in 95 ms]
+[2016.01.18-04.15.37:347][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.15.37:347][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.15.37:347][350]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:15:37 PM)
+[2016.01.18-04.15.37:347][350]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.15.37:352][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004588s)
+[2016.01.18-04.15.37:353][350]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.15.37:353][350]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2016.01.18-04.15.37:353][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.005767s)
+[2016.01.18-04.15.37:411][350]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.15.37:415][350]LogInit: FAudioDevice initialized.
+[2016.01.18-04.15.37:447][350]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.15.37:451][350]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.15.37
+[2016.01.18-04.15.37:451][350]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.15.37:452][350]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.15.37:452][350]LogWorld: Bringing up level for play took: 0.003253
+[2016.01.18-04.15.37:456][350]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 -0.644
+[2016.01.18-04.15.37:456][350]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.15.49:334][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.15.49:378][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.15.49:406][314]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAE4DEB420
+[2016.01.18-04.16.05:025][291]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.12:304][799]BlueprintLog: New page: Compile LiquidSphere
+[2016.01.18-04.16.12:411][799]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.12:411][799]BlueprintEditorCompileResults: Info [2707.24] Compile of LiquidSphere successful! [in 106 ms]
+[2016.01.18-04.16.12:440][799]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.12:837][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset" SILENT=true
+[2016.01.18-04.16.12:887][825]LogSavePackage: Save=36.533672ms
+[2016.01.18-04.16.12:887][825]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphereD60A2F0946636D76F759DEB7DD9B6480.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset'
+[2016.01.18-04.16.12:889][825]LogSavePackage: Total save time: 50.050177ms
+[2016.01.18-04.16.12:889][825]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset
+[2016.01.18-04.16.14:238][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.14:238][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.16.14:238][917]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:16:14 PM)
+[2016.01.18-04.16.14:238][917]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.16.14:243][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005012s)
+[2016.01.18-04.16.14:244][917]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.16.14:244][917]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2016.01.18-04.16.14:245][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.006348s)
+[2016.01.18-04.16.14:296][917]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.16.14:299][917]LogInit: FAudioDevice initialized.
+[2016.01.18-04.16.14:338][917]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.16.14:342][917]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.16.14
+[2016.01.18-04.16.14:342][917]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.16.14:342][917]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.16.14:342][917]LogWorld: Bringing up level for play took: 0.002626
+[2016.01.18-04.16.14:345][917]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 0.245
+[2016.01.18-04.16.14:345][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.36:058][668]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.36:073][668]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.36:102][668]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.36:130][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAB87D3C40
+[2016.01.18-04.16.36:196][668]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.41:547][ 38]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.41:576][ 38]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.43:247][145]BlueprintLog: New page: Compile LiquidSphere
+[2016.01.18-04.16.43:358][145]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.43:359][145]BlueprintEditorCompileResults: Info [2738.19] Compile of LiquidSphere successful! [in 111 ms]
+[2016.01.18-04.16.43:386][145]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.44:438][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.44:438][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.18-04.16.44:438][215]PIE: New page: PIE session: Level_1 (Jan 17, 2016, 12:16:44 PM)
+[2016.01.18-04.16.44:438][215]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1
+[2016.01.18-04.16.44:443][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004953s)
+[2016.01.18-04.16.44:444][215]LogAIModule: Creating AISystem for world Level_1
+[2016.01.18-04.16.44:444][215]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2016.01.18-04.16.44:444][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Level_1.Level_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 (0.006100s)
+[2016.01.18-04.16.44:493][215]LogInit: XAudio2 using 'Speakers (CA DacMagic Plus)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.18-04.16.44:499][215]LogInit: FAudioDevice initialized.
+[2016.01.18-04.16.44:547][215]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.18-04.16.44:551][215]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2016.01.17-20.16.44
+[2016.01.18-04.16.44:551][215]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.16.44:551][215]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.18-04.16.44:551][215]LogWorld: Bringing up level for play took: 0.003225
+[2016.01.18-04.16.44:555][215]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Level_1 0.455
+[2016.01.18-04.16.44:555][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.45:645][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.45:660][301]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.45:694][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/FirstPersonBP/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2016.01.18-04.16.45:774][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAE5965760
+[2016.01.18-04.16.45:774][301]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.48:134][464]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.48:143][464]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.48:177][464]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.48:794][508]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.48:853][508]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.50:451][613]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.16.53:762][837]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.17.09:260][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-04.17.09:260][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.17.09:261][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.17.09:265][788]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.17.09:274][788]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.17.09:309][788]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.17.10:298][854]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.17.10:331][854]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.17.12:308][972]LogSavePackage: Save=92.515144ms
+[2016.01.18-04.17.12:308][972]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/Level_1CBF170D44DD29330F9A205AC07D2FA8E.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap'
+[2016.01.18-04.17.12:310][972]LogSavePackage: Total save time: 106.217433ms
+[2016.01.18-04.17.12:310][972]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap
+[2016.01.18-04.18.27:918][116]BlueprintLog: New page: Compile LiquidSphere
+[2016.01.18-04.18.28:007][116]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.18.28:007][116]BlueprintEditorCompileResults: Info [2842.84] Compile of LiquidSphere successful! [in 89 ms]
+[2016.01.18-04.18.28:035][116]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LiquidSphere', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/LiquidSphere.SKEL_LiquidSphere_C'
+[2016.01.18-04.18.28:483][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/LiquidSphere" FILE="../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset" SILENT=true
+[2016.01.18-04.18.28:538][143]LogSavePackage: Save=46.081448ms
+[2016.01.18-04.18.28:538][143]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/LiquidSphere6AC16256446167B722F5D38917B7776A.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset'
+[2016.01.18-04.18.28:540][143]LogSavePackage: Total save time: 56.206461ms
+[2016.01.18-04.18.28:540][143]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Blueprints/LiquidSphere.uasset
+[2016.01.18-04.20.45:973][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-04.20.45:973][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-04.20.45:973][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-04.20.46:260][667]LogSavePackage: Save=93.252724ms
+[2016.01.18-04.20.46:260][667]LogSavePackage: Moving '../../../../../Unreal Projects/Underwater/Underwater/Saved/Level_1E74FCBAA4773F07D3E08A692580414A5.tmp' to '../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap'
+[2016.01.18-04.20.46:261][667]LogSavePackage: Total save time: 109.093115ms
+[2016.01.18-04.20.46:261][667]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Underwater/Underwater/Content/FirstPersonBP/Maps/Level_1.umap
+[2016.01.18-04.20.46:297][667]LogFileHelpers: Saving map 'Level_1' took 0.265
+[2016.01.18-07.17.58:857][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.18-07.17.58:857][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.18-07.17.58:857][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.18-07.17.59:028][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.18-07.17.59:094][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.18-07.17.59:449][251]Cmd: QUIT_EDITOR
+[2016.01.18-07.17.59:811][251]LogExit: Preparing to exit.
+[2016.01.18-07.18.01:332][251]LogExit: Editor shut down
+[2016.01.18-07.18.01:332][251]LogExit: Transaction tracking system shut down
+[2016.01.18-07.18.01:333][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAB1DDF600
+[2016.01.18-07.18.01:334][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAA2607920
+[2016.01.18-07.18.01:385][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAB941F600
+[2016.01.18-07.18.01:385][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FA9FDFA700
+[2016.01.18-07.18.01:389][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FADFF2B4C0
+[2016.01.18-07.18.01:391][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAD657E700
+[2016.01.18-07.18.01:392][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FAA28902C0
+[2016.01.18-07.18.02:066][251]LogExit: Object subsystem successfully closed.
+[2016.01.18-07.18.02:209][251]LogD3D11RHI: Shutdown
+[2016.01.18-07.18.02:209][251]LogD3D11RHI: CleanupD3DDevice
+[2016.01.18-07.18.02:330][251]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.18-07.18.02:629][251]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2016.01.18-07.18.02:629][251]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.18-07.18.02:629][251]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.18-07.18.02:629][251]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.18-07.18.02:629][251]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.18-07.18.02:629][251]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.18-07.18.02:645][251]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.18-07.18.02:645][251]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.18-07.18.02:646][251]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.01.18-07.18.02:646][251]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.01.18-07.18.02:646][251]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.01.18-07.18.02:674][251]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.01.18-07.18.02:678][251]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.01.18-07.18.02:678][251]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.01.18-07.18.02:678][251]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.01.18-07.18.02:678][251]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.01.18-07.18.02:678][251]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.01.18-07.18.02:978][251]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.01.18-07.18.02:978][251]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.01.18-07.18.02:978][251]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.01.18-07.18.02:978][251]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.01.18-07.18.02:997][251]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.01.18-07.18.02:997][251]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.01.18-07.18.02:997][251]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.01.18-07.18.02:997][251]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.01.18-07.18.02:997][251]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.01.18-07.18.03:005][251]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.01.18-07.18.03:018][251]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.01.18-07.18.03:019][251]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.01.18-07.18.03:019][251]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.01.18-07.18.03:019][251]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.01.18-07.18.03:019][251]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.01.18-07.18.03:030][251]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.01.18-07.18.03:030][251]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.01.18-07.18.03:030][251]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.01.18-07.18.03:030][251]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.01.18-07.18.03:045][251]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.01.18-07.18.03:053][251]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.01.18-07.18.03:053][251]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.01.18-07.18.03:053][251]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.01.18-07.18.03:053][251]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.01.18-07.18.03:061][251]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.01.18-07.18.03:061][251]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.01.18-07.18.03:061][251]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.01.18-07.18.03:061][251]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.01.18-07.18.03:061][251]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.01.18-07.18.03:066][251]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.01.18-07.18.03:066][251]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.01.18-07.18.03:066][251]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.01.18-07.18.03:077][251]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.01.18-07.18.03:078][251]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.01.18-07.18.03:084][251]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.01.18-07.18.03:084][251]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.01.18-07.18.03:084][251]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.01.18-07.18.03:084][251]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.01.18-07.18.03:084][251]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.01.18-07.18.03:084][251]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.01.18-07.18.03:084][251]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.18-07.18.03:252][251]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.18-07.18.03:276][251]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.18-07.18.03:281][251]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.18-07.18.03:281][251]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.18-07.18.03:281][251]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.18-07.18.03:290][251]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.18-07.18.03:304][251]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.18-07.18.03:318][251]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.18-07.18.03:318][251]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.18-07.18.03:318][251]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.18-07.18.03:338][251]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.18-07.18.03:343][251]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.18-07.18.03:457][251]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.18-07.18.03:458][251]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.18-07.18.03:484][251]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.18-07.18.03:586][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.18-07.18.03:586][251]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.18-07.18.03:586][251]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.18-07.18.03:611][251]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.18-07.18.03:611][251]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.18-07.18.03:612][251]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.18-07.18.03:612][251]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.18-07.18.03:612][251]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.18-07.18.03:612][251]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.18-07.18.03:622][251]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.18-07.18.03:622][251]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.18-07.18.03:622][251]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.18-07.18.03:622][251]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.18-07.18.03:622][251]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.18-07.18.03:622][251]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.18-07.18.03:634][251]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.18-07.18.03:647][251]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.18-07.18.03:647][251]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.18-07.18.03:647][251]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.18-07.18.03:649][251]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.18-07.18.03:652][251]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.18-07.18.03:655][251]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.18-07.18.03:739][251]LogDerivedDataCache: Shutdown
+[2016.01.18-07.18.03:739][251]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.18-07.18.03:751][251]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.18-07.18.03:751][251]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.18-07.18.03:782][251]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.18-07.18.03:789][251]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.18-07.18.03:789][251]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.18-07.18.03:799][251]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.18-07.18.03:799][251]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.18-07.18.03:804][251]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.18-07.18.03:804][251]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.18-07.18.03:813][251]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.18-07.18.03:814][251]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.18-07.18.03:814][251]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.18-07.18.04:815][251]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.18-07.18.04:827][251]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.18-07.18.04:827][251]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.18-07.18.04:848][251]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.18-07.18.04:848][251]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.18-07.18.04:848][251]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.18-07.18.04:859][251]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.18-07.18.04:859][251]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.18-07.18.04:859][251]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.18-07.18.04:859][251]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.18-07.18.04:859][251]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.18-07.18.04:859][251]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.18-07.18.04:859][251]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.18-07.18.04:862][251]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.18-07.18.04:862][251]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.18-07.18.04:862][251]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.18-07.18.04:876][251]LogExit: Exiting.
+[2016.01.18-07.18.04:882][251]Log file closed, 01/17/16 23:18:04
