@@ -1,0 +1,1016 @@
+Begin Object Class=WidgetBlueprint Name="MainMenu"
+   Begin Object Class=WidgetTree Name="WidgetTree" Archetype=WidgetTree'Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=CanvasPanel Name="CanvasPanel_44"
+         Begin Object Class=CanvasPanelSlot Name="CanvasPanelSlot_295"
+         End Object
+         Begin Object Class=CanvasPanelSlot Name="CanvasPanelSlot_398"
+         End Object
+         Begin Object Class=CanvasPanelSlot Name="CanvasPanelSlot_402"
+         End Object
+      End Object
+      Begin Object Class=Image Name="Image_0"
+      End Object
+      Begin Object Class=VerticalBox Name="MainMenu"
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_4"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_5"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_6"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_7"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="MainMenuTitle"
+      End Object
+      Begin Object Class=Button Name="PlayButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_44"
+      End Object
+      Begin Object Class=Button Name="OptionsButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_1"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_45"
+      End Object
+      Begin Object Class=Button Name="QuitButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_2"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_46"
+      End Object
+      Begin Object Class=VerticalBox Name="OptionsMenu"
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_321"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_5"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_6"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_7"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_8"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="Options Menu"
+      End Object
+      Begin Object Class=Button Name="Option01"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_48"
+      End Object
+      Begin Object Class=Button Name="Option02"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_1"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_49"
+      End Object
+      Begin Object Class=Button Name="Options03"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_2"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_50"
+      End Object
+      Begin Object Class=Button Name="ReturnButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_2"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_51"
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="EventGraph"
+      Begin Object Class=K2Node_Event Name="K2Node_Event_155"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26140"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26141"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8881"
+         End Object
+      End Object
+      Begin Object Class=K2Node_Event Name="K2Node_Event_156"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26146"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26147"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26148"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26149"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8882"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_192"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25944"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25945"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8883"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_195"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25954"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25955"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8884"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_199"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25964"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25965"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8885"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_204"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25974"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25975"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8886"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5178"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26158"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26159"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26160"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26161"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26162"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26163"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26164"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5189"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26179"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26180"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26181"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1097"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26022"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26023"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1098"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26028"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26029"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5256"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26188"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26190"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26189"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26191"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5257"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26202"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26200"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26201"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26203"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5275"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26212"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26213"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26214"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26215"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5274"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26224"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26225"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26226"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26227"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1065"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26082"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26083"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1072"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26088"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26089"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5276"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26236"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26237"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26238"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26239"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26240"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26241"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="CanvasPanel_44"
+         Begin Object Name="CanvasPanelSlot_295"
+            LayoutData=(Offsets=(Right=4.104004,Bottom=-3.973999),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent=CanvasPanel'MainMenu:WidgetTree.CanvasPanel_44'
+            Content=Image'MainMenu:WidgetTree.Image_0'
+         End Object
+         Begin Object Name="CanvasPanelSlot_398"
+            LayoutData=(Offsets=(Left=-150.000000,Top=-175.000000,Right=300.000000,Bottom=350.000000),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)))
+            ZOrder=1
+            Parent=CanvasPanel'MainMenu:WidgetTree.CanvasPanel_44'
+            Content=VerticalBox'MainMenu:WidgetTree.MainMenu'
+         End Object
+         Begin Object Name="CanvasPanelSlot_402"
+            LayoutData=(Offsets=(Left=-150.000000,Top=-175.000000,Right=300.000000,Bottom=350.000000),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)))
+            ZOrder=1
+            Parent=CanvasPanel'MainMenu:WidgetTree.CanvasPanel_44'
+            Content=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+         End Object
+         Slots(0)=CanvasPanelSlot'CanvasPanelSlot_295'
+         Slots(1)=CanvasPanelSlot'CanvasPanelSlot_398'
+         Slots(2)=CanvasPanelSlot'CanvasPanelSlot_402'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Image_0"
+         Brush=(TintColor=(SpecifiedColor=(R=0.372306,G=0.379113,B=1.000000,A=1.000000)))
+         Slot=CanvasPanelSlot'MainMenu:WidgetTree.CanvasPanel_44.CanvasPanelSlot_295'
+      End Object
+      Begin Object Name="MainMenu"
+         Begin Object Name="VerticalBoxSlot_4"
+            Size=(SizeRule=Fill)
+            HorizontalAlignment=HAlign_Center
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=TextBlock'MainMenu:WidgetTree.MainMenuTitle'
+         End Object
+         Begin Object Name="VerticalBoxSlot_5"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=Button'MainMenu:WidgetTree.PlayButton'
+         End Object
+         Begin Object Name="VerticalBoxSlot_6"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=Button'MainMenu:WidgetTree.OptionsButton'
+         End Object
+         Begin Object Name="VerticalBoxSlot_7"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=Button'MainMenu:WidgetTree.QuitButton'
+         End Object
+         Slots(0)=VerticalBoxSlot'VerticalBoxSlot_4'
+         Slots(1)=VerticalBoxSlot'VerticalBoxSlot_5'
+         Slots(2)=VerticalBoxSlot'VerticalBoxSlot_6'
+         Slots(3)=VerticalBoxSlot'VerticalBoxSlot_7'
+         bIsVariable=True
+         Slot=CanvasPanelSlot'MainMenu:WidgetTree.CanvasPanel_44.CanvasPanelSlot_398'
+         bHiddenInDesigner=True
+      End Object
+      Begin Object Name="MainMenuTitle"
+         Text="Main Menu"
+         Font=(Size=35)
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_4'
+         bHiddenInDesigner=True
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="PlayButton"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'MainMenu:WidgetTree.PlayButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_44'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_0'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_5'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_44"
+         Text="Play Game"
+         Slot=ButtonSlot'MainMenu:WidgetTree.PlayButton.ButtonSlot_0'
+      End Object
+      Begin Object Name="OptionsButton"
+         Begin Object Name="ButtonSlot_1"
+            Parent=Button'MainMenu:WidgetTree.OptionsButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_45'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_1'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_6'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_45"
+         Text="Options"
+         Slot=ButtonSlot'MainMenu:WidgetTree.OptionsButton.ButtonSlot_1'
+      End Object
+      Begin Object Name="QuitButton"
+         Begin Object Name="ButtonSlot_2"
+            Parent=Button'MainMenu:WidgetTree.QuitButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_46'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_2'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_7'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_46"
+         Text="Quit Game"
+         Slot=ButtonSlot'MainMenu:WidgetTree.QuitButton.ButtonSlot_2'
+      End Object
+      Begin Object Name="OptionsMenu"
+         Begin Object Name="VerticalBoxSlot_321"
+            Size=(SizeRule=Fill)
+            HorizontalAlignment=HAlign_Center
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=TextBlock'"MainMenu:WidgetTree.Options Menu"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_5"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.Option01'
+         End Object
+         Begin Object Name="VerticalBoxSlot_6"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.Option02'
+         End Object
+         Begin Object Name="VerticalBoxSlot_7"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.Options03'
+         End Object
+         Begin Object Name="VerticalBoxSlot_8"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.ReturnButton'
+         End Object
+         Slots(0)=VerticalBoxSlot'VerticalBoxSlot_321'
+         Slots(1)=VerticalBoxSlot'VerticalBoxSlot_5'
+         Slots(2)=VerticalBoxSlot'VerticalBoxSlot_6'
+         Slots(3)=VerticalBoxSlot'VerticalBoxSlot_7'
+         Slots(4)=VerticalBoxSlot'VerticalBoxSlot_8'
+         bIsVariable=True
+         Slot=CanvasPanelSlot'MainMenu:WidgetTree.CanvasPanel_44.CanvasPanelSlot_402'
+         Visibility=Hidden
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Options Menu"
+         Text="Options"
+         Font=(Size=35)
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_321'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Option01"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'MainMenu:WidgetTree.Option01'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_48'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_0'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_5'
+      End Object
+      Begin Object Name="TextBlock_48"
+         Text="Options01"
+         Slot=ButtonSlot'MainMenu:WidgetTree.Option01.ButtonSlot_0'
+      End Object
+      Begin Object Name="Option02"
+         Begin Object Name="ButtonSlot_1"
+            Parent=Button'MainMenu:WidgetTree.Option02'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_49'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_1'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_6'
+      End Object
+      Begin Object Name="TextBlock_49"
+         Text="Option02"
+         Slot=ButtonSlot'MainMenu:WidgetTree.Option02.ButtonSlot_1'
+      End Object
+      Begin Object Name="Options03"
+         Begin Object Name="ButtonSlot_2"
+            Parent=Button'MainMenu:WidgetTree.Options03'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_50'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_2'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_7'
+      End Object
+      Begin Object Name="TextBlock_50"
+         Text="Option03"
+         Slot=ButtonSlot'MainMenu:WidgetTree.Options03.ButtonSlot_2'
+      End Object
+      Begin Object Name="ReturnButton"
+         Begin Object Name="ButtonSlot_2"
+            Parent=Button'MainMenu:WidgetTree.ReturnButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_51'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_2'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_8'
+      End Object
+      Begin Object Name="TextBlock_51"
+         Text="Return"
+         Slot=ButtonSlot'MainMenu:WidgetTree.ReturnButton.ButtonSlot_2'
+      End Object
+      RootWidget=CanvasPanel'CanvasPanel_44'
+      AllWidgets(0)=CanvasPanel'CanvasPanel_44'
+      AllWidgets(1)=Image'Image_0'
+      AllWidgets(2)=VerticalBox'MainMenu'
+      AllWidgets(3)=TextBlock'MainMenuTitle'
+      AllWidgets(4)=Button'PlayButton'
+      AllWidgets(5)=TextBlock'TextBlock_44'
+      AllWidgets(6)=Button'OptionsButton'
+      AllWidgets(7)=TextBlock'TextBlock_45'
+      AllWidgets(8)=Button'QuitButton'
+      AllWidgets(9)=TextBlock'TextBlock_46'
+      AllWidgets(10)=VerticalBox'OptionsMenu'
+      AllWidgets(11)=TextBlock'"Options Menu"'
+      AllWidgets(12)=Button'Option01'
+      AllWidgets(13)=TextBlock'TextBlock_48'
+      AllWidgets(14)=Button'Option02'
+      AllWidgets(15)=TextBlock'TextBlock_49'
+      AllWidgets(16)=Button'Options03'
+      AllWidgets(17)=TextBlock'TextBlock_50'
+      AllWidgets(18)=Button'ReturnButton'
+      AllWidgets(19)=TextBlock'TextBlock_51'
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_Event_155"
+         Begin Object Name="EdGraphPin_26140"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Construct"))
+         End Object
+         Begin Object Name="EdGraphPin_26141"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8881"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         EventReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="Construct")
+         bOverrideFunction=True
+         Pins(0)=EdGraphPin'EdGraphPin_26140'
+         Pins(1)=EdGraphPin'EdGraphPin_26141'
+         Pins(2)=EdGraphPin'EdGraphPin_8881'
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeGuid=3AEBD682423A4FBF61CAE6BE016AB741
+         bIsNodeEnabled=False
+      End Object
+      Begin Object Name="K2Node_Event_156"
+         Begin Object Name="EdGraphPin_26146"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Tick"))
+         End Object
+         Begin Object Name="EdGraphPin_26147"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26148"
+            PinName="MyGeometry"
+            PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget"
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/SlateCore.Geometry')
+         End Object
+         Begin Object Name="EdGraphPin_26149"
+            PinName="InDeltaTime"
+            PinToolTip="In Delta Time\nFloat\n\nReal time passed since last tick"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_8882"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         EventReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="Tick")
+         bOverrideFunction=True
+         Pins(0)=EdGraphPin'EdGraphPin_26146'
+         Pins(1)=EdGraphPin'EdGraphPin_26147'
+         Pins(2)=EdGraphPin'EdGraphPin_26148'
+         Pins(3)=EdGraphPin'EdGraphPin_26149'
+         Pins(4)=EdGraphPin'EdGraphPin_8882'
+         NodePosY=200
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeGuid=7B9A8DBC40574DD0CFEAB4BCE8FBB713
+         bIsNodeEnabled=False
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_192"
+         Begin Object Name="EdGraphPin_25944"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_25945"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5178.EdGraphPin_26158'
+         End Object
+         Begin Object Name="EdGraphPin_8883"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="PlayButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25944'
+         Pins(1)=EdGraphPin'EdGraphPin_25945'
+         Pins(2)=EdGraphPin'EdGraphPin_8883'
+         NodePosY=464
+         NodeGuid=5576F22246760D9571CF2085C0D7F932
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_195"
+         Begin Object Name="EdGraphPin_25954"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_25955"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5256.EdGraphPin_26188'
+         End Object
+         Begin Object Name="EdGraphPin_8884"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="OptionsButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25954'
+         Pins(1)=EdGraphPin'EdGraphPin_25955'
+         Pins(2)=EdGraphPin'EdGraphPin_8884'
+         NodePosY=720
+         NodeGuid=3EFDCA8A47A61391282E78AEA15BBCF6
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_199"
+         Begin Object Name="EdGraphPin_25964"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_25965"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5276.EdGraphPin_26236'
+         End Object
+         Begin Object Name="EdGraphPin_8885"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="QuitButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25964'
+         Pins(1)=EdGraphPin'EdGraphPin_25965'
+         Pins(2)=EdGraphPin'EdGraphPin_8885'
+         NodePosY=976
+         NodeGuid=4FEE582049BDDADB336F85B5C66A1D69
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_204"
+         Begin Object Name="EdGraphPin_25974"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_25975"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5275.EdGraphPin_26212'
+         End Object
+         Begin Object Name="EdGraphPin_8886"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="ReturnButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25974'
+         Pins(1)=EdGraphPin'EdGraphPin_25975'
+         Pins(2)=EdGraphPin'EdGraphPin_8886'
+         NodePosY=1232
+         NodeGuid=3EDC33384D4DE93262494CAB8D344D18
+      End Object
+      Begin Object Name="K2Node_CallFunction_5178"
+         Begin Object Name="EdGraphPin_26158"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_192.EdGraphPin_25945'
+         End Object
+         Begin Object Name="EdGraphPin_26159"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5189.EdGraphPin_26179'
+         End Object
+         Begin Object Name="EdGraphPin_26160"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.GameplayStatics')
+            DefaultObject=Default__GameplayStatics
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26161"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26162"
+            PinName="LevelName"
+            PinType=(PinCategory="name")
+            DefaultValue="FirstPersonExampleMap"
+            AutogeneratedDefaultValue="None"
+         End Object
+         Begin Object Name="EdGraphPin_26163"
+            PinName="bAbsolute"
+            PinType=(PinCategory="bool")
+            DefaultValue="true"
+            AutogeneratedDefaultValue="true"
+            bAdvancedView=True
+         End Object
+         Begin Object Name="EdGraphPin_26164"
+            PinName="Options"
+            PinType=(PinCategory="string")
+            bAdvancedView=True
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.GameplayStatics',MemberName="OpenLevel")
+         Pins(0)=EdGraphPin'EdGraphPin_26158'
+         Pins(1)=EdGraphPin'EdGraphPin_26159'
+         Pins(2)=EdGraphPin'EdGraphPin_26160'
+         Pins(3)=EdGraphPin'EdGraphPin_26161'
+         Pins(4)=EdGraphPin'EdGraphPin_26162'
+         Pins(5)=EdGraphPin'EdGraphPin_26163'
+         Pins(6)=EdGraphPin'EdGraphPin_26164'
+         NodePosX=272
+         NodePosY=464
+         NodeGuid=FE86F0B745418B84DAAAAA8205F0BF78
+         AdvancedPinDisplay=Hidden
+      End Object
+      Begin Object Name="K2Node_CallFunction_5189"
+         Begin Object Name="EdGraphPin_26179"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5178.EdGraphPin_26159'
+         End Object
+         Begin Object Name="EdGraphPin_26180"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26181"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+         End Object
+         FunctionReference=(MemberName="RemoveFromParent",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26179'
+         Pins(1)=EdGraphPin'EdGraphPin_26180'
+         Pins(2)=EdGraphPin'EdGraphPin_26181'
+         NodePosX=592
+         NodePosY=496
+         NodeGuid=83EAEC7E409FF73F236FDABC9474E794
+      End Object
+      Begin Object Name="K2Node_VariableGet_1097"
+         Begin Object Name="EdGraphPin_26022"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5256.EdGraphPin_26190'
+         End Object
+         Begin Object Name="EdGraphPin_26023"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26022'
+         Pins(1)=EdGraphPin'EdGraphPin_26023'
+         NodePosX=144
+         NodePosY=816
+         NodeGuid=9FF9256C4024E62B70CC74823A2BAF52
+      End Object
+      Begin Object Name="K2Node_VariableGet_1098"
+         Begin Object Name="EdGraphPin_26028"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5257.EdGraphPin_26202'
+         End Object
+         Begin Object Name="EdGraphPin_26029"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26028'
+         Pins(1)=EdGraphPin'EdGraphPin_26029'
+         NodePosX=144
+         NodePosY=864
+         NodeGuid=9C4E883248187410B1F941BD4D0BFB3D
+      End Object
+      Begin Object Name="K2Node_CallFunction_5256"
+         Begin Object Name="EdGraphPin_26188"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_195.EdGraphPin_25955'
+         End Object
+         Begin Object Name="EdGraphPin_26190"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1097.EdGraphPin_26022'
+         End Object
+         Begin Object Name="EdGraphPin_26189"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5257.EdGraphPin_26200'
+         End Object
+         Begin Object Name="EdGraphPin_26191"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26188'
+         Pins(1)=EdGraphPin'EdGraphPin_26189'
+         Pins(2)=EdGraphPin'EdGraphPin_26190'
+         Pins(3)=EdGraphPin'EdGraphPin_26191'
+         NodePosX=320
+         NodePosY=704
+         NodeGuid=3733607E4BD1AD22D5E39C86933D63F8
+      End Object
+      Begin Object Name="K2Node_CallFunction_5257"
+         Begin Object Name="EdGraphPin_26202"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1098.EdGraphPin_26028'
+         End Object
+         Begin Object Name="EdGraphPin_26200"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5256.EdGraphPin_26189'
+         End Object
+         Begin Object Name="EdGraphPin_26201"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26203"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26200'
+         Pins(1)=EdGraphPin'EdGraphPin_26201'
+         Pins(2)=EdGraphPin'EdGraphPin_26202'
+         Pins(3)=EdGraphPin'EdGraphPin_26203'
+         NodePosX=704
+         NodePosY=704
+         NodeGuid=3661F07B4D7ED545D9BB8A80CED6C414
+      End Object
+      Begin Object Name="K2Node_CallFunction_5275"
+         Begin Object Name="EdGraphPin_26212"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_204.EdGraphPin_25975'
+         End Object
+         Begin Object Name="EdGraphPin_26213"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5274.EdGraphPin_26224'
+         End Object
+         Begin Object Name="EdGraphPin_26214"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1072.EdGraphPin_26088'
+         End Object
+         Begin Object Name="EdGraphPin_26215"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26212'
+         Pins(1)=EdGraphPin'EdGraphPin_26213'
+         Pins(2)=EdGraphPin'EdGraphPin_26214'
+         Pins(3)=EdGraphPin'EdGraphPin_26215'
+         NodePosX=304
+         NodePosY=1216
+         NodeGuid=87A7827A4659B618BF6CC0AEF67B26B3
+      End Object
+      Begin Object Name="K2Node_CallFunction_5274"
+         Begin Object Name="EdGraphPin_26224"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5275.EdGraphPin_26213'
+         End Object
+         Begin Object Name="EdGraphPin_26225"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26226"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1065.EdGraphPin_26082'
+         End Object
+         Begin Object Name="EdGraphPin_26227"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26224'
+         Pins(1)=EdGraphPin'EdGraphPin_26225'
+         Pins(2)=EdGraphPin'EdGraphPin_26226'
+         Pins(3)=EdGraphPin'EdGraphPin_26227'
+         NodePosX=704
+         NodePosY=1216
+         NodeGuid=214288A145D0B0A411F8ADA6658A9966
+      End Object
+      Begin Object Name="K2Node_VariableGet_1065"
+         Begin Object Name="EdGraphPin_26082"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5274.EdGraphPin_26226'
+         End Object
+         Begin Object Name="EdGraphPin_26083"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26082'
+         Pins(1)=EdGraphPin'EdGraphPin_26083'
+         NodePosX=96
+         NodePosY=1424
+         NodeGuid=35BE0A8546E727791C9BF5B46B994500
+      End Object
+      Begin Object Name="K2Node_VariableGet_1072"
+         Begin Object Name="EdGraphPin_26088"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5275.EdGraphPin_26214'
+         End Object
+         Begin Object Name="EdGraphPin_26089"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26088'
+         Pins(1)=EdGraphPin'EdGraphPin_26089'
+         NodePosX=96
+         NodePosY=1360
+         NodeGuid=68BCD5CA4154157D0471DDB2F82779F5
+      End Object
+      Begin Object Name="K2Node_CallFunction_5276"
+         Begin Object Name="EdGraphPin_26236"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_199.EdGraphPin_25965'
+         End Object
+         Begin Object Name="EdGraphPin_26237"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26238"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetSystemLibrary')
+            DefaultObject=Default__KismetSystemLibrary
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26239"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26240"
+            PinName="Command"
+            PinType=(PinCategory="string")
+            DefaultValue="quit"
+         End Object
+         Begin Object Name="EdGraphPin_26241"
+            PinName="SpecificPlayer"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.PlayerController')
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.KismetSystemLibrary',MemberName="ExecuteConsoleCommand")
+         Pins(0)=EdGraphPin'EdGraphPin_26236'
+         Pins(1)=EdGraphPin'EdGraphPin_26237'
+         Pins(2)=EdGraphPin'EdGraphPin_26238'
+         Pins(3)=EdGraphPin'EdGraphPin_26239'
+         Pins(4)=EdGraphPin'EdGraphPin_26240'
+         Pins(5)=EdGraphPin'EdGraphPin_26241'
+         NodePosX=288
+         NodePosY=976
+         NodeGuid=D99D68AC4529AB78F64A4884993F5860
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_Event'K2Node_Event_155'
+      Nodes(1)=K2Node_Event'K2Node_Event_156'
+      Nodes(2)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_192'
+      Nodes(3)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_195'
+      Nodes(4)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_199'
+      Nodes(5)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_204'
+      Nodes(6)=K2Node_CallFunction'K2Node_CallFunction_5178'
+      Nodes(7)=K2Node_CallFunction'K2Node_CallFunction_5189'
+      Nodes(8)=K2Node_VariableGet'K2Node_VariableGet_1097'
+      Nodes(9)=K2Node_VariableGet'K2Node_VariableGet_1098'
+      Nodes(10)=K2Node_CallFunction'K2Node_CallFunction_5256'
+      Nodes(11)=K2Node_CallFunction'K2Node_CallFunction_5257'
+      Nodes(12)=K2Node_CallFunction'K2Node_CallFunction_5275'
+      Nodes(13)=K2Node_CallFunction'K2Node_CallFunction_5274'
+      Nodes(14)=K2Node_VariableGet'K2Node_VariableGet_1065'
+      Nodes(15)=K2Node_VariableGet'K2Node_VariableGet_1072'
+      Nodes(16)=K2Node_CallFunction'K2Node_CallFunction_5276'
+      bAllowDeletion=False
+      GraphGuid=5918BFF34DD4D23D82FBD3BE68857D4D
+   End Object
+   WidgetTree=WidgetTree
+   ParentClass=Class'/Script/UMG.UserWidget'
+   UbergraphPages(0)=EdGraph'EventGraph'
+   CategorySorting(0)="Main Menu"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObject=EdGraph'EventGraph',SavedViewOffset=(X=-254.955444,Y=320.285736),SavedZoomAmount=0.875000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'MainMenu_C'
+   bLegacyNeedToPurgeSkelRefs=False
+   bLegacyGeneratedClassIsAuthoritative=True
+   BlueprintGuid=57343FF04467284ABE7917A73B435DD5
+End Object

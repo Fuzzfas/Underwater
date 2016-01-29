@@ -1,0 +1,3580 @@
+Begin Object Class=WidgetBlueprint Name="MainMenu"
+   Begin Object Class=WidgetTree Name="WidgetTree" Archetype=WidgetTree'Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=CanvasPanel Name="CanvasPanel_44"
+         Begin Object Class=CanvasPanelSlot Name="CanvasPanelSlot_295"
+         End Object
+         Begin Object Class=CanvasPanelSlot Name="CanvasPanelSlot_398"
+         End Object
+         Begin Object Class=CanvasPanelSlot Name="CanvasPanelSlot_402"
+         End Object
+      End Object
+      Begin Object Class=Image Name="Image_0"
+      End Object
+      Begin Object Class=VerticalBox Name="MainMenu"
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_4"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_5"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_6"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_7"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="MainMenuTitle"
+      End Object
+      Begin Object Class=Button Name="PlayButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_44"
+      End Object
+      Begin Object Class=Button Name="OptionsButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_1"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_45"
+      End Object
+      Begin Object Class=Button Name="QuitButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_2"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_46"
+      End Object
+      Begin Object Class=VerticalBox Name="OptionsMenu"
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_321"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_5"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_6"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_7"
+         End Object
+         Begin Object Class=VerticalBoxSlot Name="VerticalBoxSlot_8"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="Options Menu"
+      End Object
+      Begin Object Class=Button Name="Option01"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_48"
+      End Object
+      Begin Object Class=Button Name="Option02"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_1"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_49"
+      End Object
+      Begin Object Class=Button Name="Options03"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_2"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_50"
+      End Object
+      Begin Object Class=Button Name="ReturnButton"
+         Begin Object Class=ButtonSlot Name="ButtonSlot_2"
+         End Object
+      End Object
+      Begin Object Class=TextBlock Name="TextBlock_51"
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="EventGraph"
+      Begin Object Class=K2Node_Event Name="K2Node_Event_155"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8739"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8740"
+         End Object
+      End Object
+      Begin Object Class=K2Node_Event Name="K2Node_Event_156"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8745"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8746"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8747"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8748"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_192"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8551"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8552"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_195"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8559"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8560"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_199"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8567"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8568"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_204"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8575"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8576"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5178"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8757"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8758"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8759"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8760"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8761"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8762"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8763"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5189"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8778"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8779"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8780"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1097"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8621"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8622"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1098"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8627"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8628"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5256"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8787"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8788"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8789"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8790"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5257"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8799"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8800"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8801"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8802"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5275"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8811"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8812"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8813"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8814"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5274"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8823"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8824"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8825"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8826"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1065"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8681"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8682"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_1072"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8687"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8688"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5276"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8835"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8836"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8837"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8838"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8839"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8840"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="ExecuteUbergraph_MainMenu"
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_12"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25945"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25944"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8505"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8512"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_11"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25955"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25954"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8506"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8511"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_10"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25965"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25964"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8507"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8510"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_9"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25975"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_25974"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8508"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8509"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_326"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26159"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26158"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26160"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26161"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26162"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26163"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26164"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_325"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26179"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26180"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26181"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_86"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26022"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26023"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_85"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26028"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26029"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_324"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26189"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26188"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26190"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26191"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_323"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26200"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26201"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26202"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26203"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_322"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26214"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26213"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26212"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26215"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_321"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26226"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26224"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26225"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26227"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_84"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26082"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26083"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_83"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26088"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26089"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_320"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26236"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26237"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26238"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26239"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26240"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_26241"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_111"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8515"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8516"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_16"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8552"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8551"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8714"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_15"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8560"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8559"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8713"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_14"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8568"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8567"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8712"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_13"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8576"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8575"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8711"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_337"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8601"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8600"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8602"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8603"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8604"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8605"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8606"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_336"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8591"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8592"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8593"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_90"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8621"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8622"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_89"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8627"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8628"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_335"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8634"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8633"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8635"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8636"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_334"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8645"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8646"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8647"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8648"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_333"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8659"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8658"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8657"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8660"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_332"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8671"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8669"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8670"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8672"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_88"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8681"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8682"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_87"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8687"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8688"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_331"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8693"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8694"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8695"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8696"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8697"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8698"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_116"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8717"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8718"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_20"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8552"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8551"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8856"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_19"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8560"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8559"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8855"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_18"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8568"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8567"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8854"
+         End Object
+      End Object
+      Begin Object Class=K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_17"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8576"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8575"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8853"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_348"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8758"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8757"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8759"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8760"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8761"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8762"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8763"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_347"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8778"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8779"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8780"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_94"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8621"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8622"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_93"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8627"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8628"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_346"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8788"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8787"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8789"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8790"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_345"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8799"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8800"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8801"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8802"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_344"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8813"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8812"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8811"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8814"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_343"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8825"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8823"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8824"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8826"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_92"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8681"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8682"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_91"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8687"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8688"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_342"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8835"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8836"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8837"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8838"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8839"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8840"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_121"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8859"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8860"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_112"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8517"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_327"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8518"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8519"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8520"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8521"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_117"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8719"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_338"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8720"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8721"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8722"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8723"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_122"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8861"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_349"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8862"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8863"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8864"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8865"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_113"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8522"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_328"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8523"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8524"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8525"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8526"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_118"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8724"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_339"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8725"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8726"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8727"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8728"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_123"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8866"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_350"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8867"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8868"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8869"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8870"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_114"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8527"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_329"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8528"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8529"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8530"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8531"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_119"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8729"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_340"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8730"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8731"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8732"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8733"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_124"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8871"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_351"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8872"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8873"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8874"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8875"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_115"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8532"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_330"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8533"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8534"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8535"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8536"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_120"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8734"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_341"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8735"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8736"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8737"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8738"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_125"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8876"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_352"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8877"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8878"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8879"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_8880"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="CanvasPanel_44"
+         Begin Object Name="CanvasPanelSlot_295"
+            LayoutData=(Offsets=(Right=4.104004,Bottom=-3.973999),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent=CanvasPanel'MainMenu:WidgetTree.CanvasPanel_44'
+            Content=Image'MainMenu:WidgetTree.Image_0'
+         End Object
+         Begin Object Name="CanvasPanelSlot_398"
+            LayoutData=(Offsets=(Left=-150.000000,Top=-175.000000,Right=300.000000,Bottom=350.000000),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)))
+            ZOrder=1
+            Parent=CanvasPanel'MainMenu:WidgetTree.CanvasPanel_44'
+            Content=VerticalBox'MainMenu:WidgetTree.MainMenu'
+         End Object
+         Begin Object Name="CanvasPanelSlot_402"
+            LayoutData=(Offsets=(Left=-150.000000,Top=-175.000000,Right=300.000000,Bottom=350.000000),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)))
+            ZOrder=1
+            Parent=CanvasPanel'MainMenu:WidgetTree.CanvasPanel_44'
+            Content=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+         End Object
+         Slots(0)=CanvasPanelSlot'CanvasPanelSlot_295'
+         Slots(1)=CanvasPanelSlot'CanvasPanelSlot_398'
+         Slots(2)=CanvasPanelSlot'CanvasPanelSlot_402'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Image_0"
+         Brush=(TintColor=(SpecifiedColor=(R=0.372306,G=0.379113,B=1.000000,A=1.000000)))
+         Slot=CanvasPanelSlot'MainMenu:WidgetTree.CanvasPanel_44.CanvasPanelSlot_295'
+      End Object
+      Begin Object Name="MainMenu"
+         Begin Object Name="VerticalBoxSlot_4"
+            Size=(SizeRule=Fill)
+            HorizontalAlignment=HAlign_Center
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=TextBlock'MainMenu:WidgetTree.MainMenuTitle'
+         End Object
+         Begin Object Name="VerticalBoxSlot_5"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=Button'MainMenu:WidgetTree.PlayButton'
+         End Object
+         Begin Object Name="VerticalBoxSlot_6"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=Button'MainMenu:WidgetTree.OptionsButton'
+         End Object
+         Begin Object Name="VerticalBoxSlot_7"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.MainMenu'
+            Content=Button'MainMenu:WidgetTree.QuitButton'
+         End Object
+         Slots(0)=VerticalBoxSlot'VerticalBoxSlot_4'
+         Slots(1)=VerticalBoxSlot'VerticalBoxSlot_5'
+         Slots(2)=VerticalBoxSlot'VerticalBoxSlot_6'
+         Slots(3)=VerticalBoxSlot'VerticalBoxSlot_7'
+         bIsVariable=True
+         Slot=CanvasPanelSlot'MainMenu:WidgetTree.CanvasPanel_44.CanvasPanelSlot_398'
+         bHiddenInDesigner=True
+      End Object
+      Begin Object Name="MainMenuTitle"
+         Text="Main Menu"
+         Font=(Size=35)
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_4'
+         bHiddenInDesigner=True
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="PlayButton"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'MainMenu:WidgetTree.PlayButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_44'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_0'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_5'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_44"
+         Text="Play Game"
+         Slot=ButtonSlot'MainMenu:WidgetTree.PlayButton.ButtonSlot_0'
+      End Object
+      Begin Object Name="OptionsButton"
+         Begin Object Name="ButtonSlot_1"
+            Parent=Button'MainMenu:WidgetTree.OptionsButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_45'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_1'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_6'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_45"
+         Text="Options"
+         Slot=ButtonSlot'MainMenu:WidgetTree.OptionsButton.ButtonSlot_1'
+      End Object
+      Begin Object Name="QuitButton"
+         Begin Object Name="ButtonSlot_2"
+            Parent=Button'MainMenu:WidgetTree.QuitButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_46'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_2'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.MainMenu.VerticalBoxSlot_7'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_46"
+         Text="Quit Game"
+         Slot=ButtonSlot'MainMenu:WidgetTree.QuitButton.ButtonSlot_2'
+      End Object
+      Begin Object Name="OptionsMenu"
+         Begin Object Name="VerticalBoxSlot_321"
+            Size=(SizeRule=Fill)
+            HorizontalAlignment=HAlign_Center
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=TextBlock'"MainMenu:WidgetTree.Options Menu"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_5"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.Option01'
+         End Object
+         Begin Object Name="VerticalBoxSlot_6"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.Option02'
+         End Object
+         Begin Object Name="VerticalBoxSlot_7"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.Options03'
+         End Object
+         Begin Object Name="VerticalBoxSlot_8"
+            Size=(SizeRule=Fill)
+            Parent=VerticalBox'MainMenu:WidgetTree.OptionsMenu'
+            Content=Button'MainMenu:WidgetTree.ReturnButton'
+         End Object
+         Slots(0)=VerticalBoxSlot'VerticalBoxSlot_321'
+         Slots(1)=VerticalBoxSlot'VerticalBoxSlot_5'
+         Slots(2)=VerticalBoxSlot'VerticalBoxSlot_6'
+         Slots(3)=VerticalBoxSlot'VerticalBoxSlot_7'
+         Slots(4)=VerticalBoxSlot'VerticalBoxSlot_8'
+         bIsVariable=True
+         Slot=CanvasPanelSlot'MainMenu:WidgetTree.CanvasPanel_44.CanvasPanelSlot_402'
+         Visibility=Hidden
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Options Menu"
+         Text="Options"
+         Font=(Size=35)
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_321'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Option01"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'MainMenu:WidgetTree.Option01'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_48'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_0'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_5'
+      End Object
+      Begin Object Name="TextBlock_48"
+         Text="Options01"
+         Slot=ButtonSlot'MainMenu:WidgetTree.Option01.ButtonSlot_0'
+      End Object
+      Begin Object Name="Option02"
+         Begin Object Name="ButtonSlot_1"
+            Parent=Button'MainMenu:WidgetTree.Option02'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_49'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_1'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_6'
+      End Object
+      Begin Object Name="TextBlock_49"
+         Text="Option02"
+         Slot=ButtonSlot'MainMenu:WidgetTree.Option02.ButtonSlot_1'
+      End Object
+      Begin Object Name="Options03"
+         Begin Object Name="ButtonSlot_2"
+            Parent=Button'MainMenu:WidgetTree.Options03'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_50'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_2'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_7'
+      End Object
+      Begin Object Name="TextBlock_50"
+         Text="Option03"
+         Slot=ButtonSlot'MainMenu:WidgetTree.Options03.ButtonSlot_2'
+      End Object
+      Begin Object Name="ReturnButton"
+         Begin Object Name="ButtonSlot_2"
+            Parent=Button'MainMenu:WidgetTree.ReturnButton'
+            Content=TextBlock'MainMenu:WidgetTree.TextBlock_51'
+         End Object
+         WidgetStyle=(NormalPadding=(Right=10.000000))
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=ButtonSlot'ButtonSlot_2'
+         Slot=VerticalBoxSlot'MainMenu:WidgetTree.OptionsMenu.VerticalBoxSlot_8'
+      End Object
+      Begin Object Name="TextBlock_51"
+         Text="Return"
+         Slot=ButtonSlot'MainMenu:WidgetTree.ReturnButton.ButtonSlot_2'
+      End Object
+      RootWidget=CanvasPanel'CanvasPanel_44'
+      AllWidgets(0)=CanvasPanel'CanvasPanel_44'
+      AllWidgets(1)=Image'Image_0'
+      AllWidgets(2)=VerticalBox'MainMenu'
+      AllWidgets(3)=TextBlock'MainMenuTitle'
+      AllWidgets(4)=Button'PlayButton'
+      AllWidgets(5)=TextBlock'TextBlock_44'
+      AllWidgets(6)=Button'OptionsButton'
+      AllWidgets(7)=TextBlock'TextBlock_45'
+      AllWidgets(8)=Button'QuitButton'
+      AllWidgets(9)=TextBlock'TextBlock_46'
+      AllWidgets(10)=VerticalBox'OptionsMenu'
+      AllWidgets(11)=TextBlock'"Options Menu"'
+      AllWidgets(12)=Button'Option01'
+      AllWidgets(13)=TextBlock'TextBlock_48'
+      AllWidgets(14)=Button'Option02'
+      AllWidgets(15)=TextBlock'TextBlock_49'
+      AllWidgets(16)=Button'Options03'
+      AllWidgets(17)=TextBlock'TextBlock_50'
+      AllWidgets(18)=Button'ReturnButton'
+      AllWidgets(19)=TextBlock'TextBlock_51'
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_Event_155"
+         Begin Object Name="EdGraphPin_8739"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Construct"))
+         End Object
+         Begin Object Name="EdGraphPin_8740"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         EventReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="Construct")
+         bOverrideFunction=True
+         Pins(0)=EdGraphPin'EdGraphPin_8739'
+         Pins(1)=EdGraphPin'EdGraphPin_8740'
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeGuid=3AEBD682423A4FBF61CAE6BE016AB741
+         bIsNodeEnabled=False
+      End Object
+      Begin Object Name="K2Node_Event_156"
+         Begin Object Name="EdGraphPin_8745"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Tick"))
+         End Object
+         Begin Object Name="EdGraphPin_8746"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8747"
+            PinName="MyGeometry"
+            PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget"
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/SlateCore.Geometry')
+         End Object
+         Begin Object Name="EdGraphPin_8748"
+            PinName="InDeltaTime"
+            PinToolTip="In Delta Time\nFloat\n\nReal time passed since last tick"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         EventReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="Tick")
+         bOverrideFunction=True
+         Pins(0)=EdGraphPin'EdGraphPin_8745'
+         Pins(1)=EdGraphPin'EdGraphPin_8746'
+         Pins(2)=EdGraphPin'EdGraphPin_8747'
+         Pins(3)=EdGraphPin'EdGraphPin_8748'
+         NodePosY=200
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeGuid=7B9A8DBC40574DD0CFEAB4BCE8FBB713
+         bIsNodeEnabled=False
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_192"
+         Begin Object Name="EdGraphPin_8551"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8552"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5178.EdGraphPin_8757'
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="PlayButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8551'
+         Pins(1)=EdGraphPin'EdGraphPin_8552'
+         NodePosY=464
+         NodeGuid=5576F22246760D9571CF2085C0D7F932
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_195"
+         Begin Object Name="EdGraphPin_8559"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8560"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5256.EdGraphPin_8787'
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="OptionsButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8559'
+         Pins(1)=EdGraphPin'EdGraphPin_8560'
+         NodePosY=720
+         NodeGuid=3EFDCA8A47A61391282E78AEA15BBCF6
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_199"
+         Begin Object Name="EdGraphPin_8567"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8568"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5276.EdGraphPin_8835'
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="QuitButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8567'
+         Pins(1)=EdGraphPin'EdGraphPin_8568'
+         NodePosY=976
+         NodeGuid=4FEE582049BDDADB336F85B5C66A1D69
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_204"
+         Begin Object Name="EdGraphPin_8575"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8576"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5275.EdGraphPin_8811'
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="ReturnButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8575'
+         Pins(1)=EdGraphPin'EdGraphPin_8576'
+         NodePosY=1232
+         NodeGuid=3EDC33384D4DE93262494CAB8D344D18
+      End Object
+      Begin Object Name="K2Node_CallFunction_5178"
+         Begin Object Name="EdGraphPin_8757"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_192.EdGraphPin_8552'
+         End Object
+         Begin Object Name="EdGraphPin_8758"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5189.EdGraphPin_8778'
+         End Object
+         Begin Object Name="EdGraphPin_8759"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.GameplayStatics')
+            DefaultObject=Default__GameplayStatics
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8760"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8761"
+            PinName="LevelName"
+            PinType=(PinCategory="name")
+            DefaultValue="FirstPersonExampleMap"
+            AutogeneratedDefaultValue="None"
+         End Object
+         Begin Object Name="EdGraphPin_8762"
+            PinName="bAbsolute"
+            PinType=(PinCategory="bool")
+            DefaultValue="true"
+            AutogeneratedDefaultValue="true"
+            bAdvancedView=True
+         End Object
+         Begin Object Name="EdGraphPin_8763"
+            PinName="Options"
+            PinType=(PinCategory="string")
+            bAdvancedView=True
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.GameplayStatics',MemberName="OpenLevel")
+         Pins(0)=EdGraphPin'EdGraphPin_8757'
+         Pins(1)=EdGraphPin'EdGraphPin_8758'
+         Pins(2)=EdGraphPin'EdGraphPin_8759'
+         Pins(3)=EdGraphPin'EdGraphPin_8760'
+         Pins(4)=EdGraphPin'EdGraphPin_8761'
+         Pins(5)=EdGraphPin'EdGraphPin_8762'
+         Pins(6)=EdGraphPin'EdGraphPin_8763'
+         NodePosX=272
+         NodePosY=464
+         NodeGuid=FE86F0B745418B84DAAAAA8205F0BF78
+         AdvancedPinDisplay=Hidden
+      End Object
+      Begin Object Name="K2Node_CallFunction_5189"
+         Begin Object Name="EdGraphPin_8778"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5178.EdGraphPin_8758'
+         End Object
+         Begin Object Name="EdGraphPin_8779"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8780"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+         End Object
+         FunctionReference=(MemberName="RemoveFromParent",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8778'
+         Pins(1)=EdGraphPin'EdGraphPin_8779'
+         Pins(2)=EdGraphPin'EdGraphPin_8780'
+         NodePosX=592
+         NodePosY=496
+         NodeGuid=83EAEC7E409FF73F236FDABC9474E794
+      End Object
+      Begin Object Name="K2Node_VariableGet_1097"
+         Begin Object Name="EdGraphPin_8621"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5256.EdGraphPin_8789'
+         End Object
+         Begin Object Name="EdGraphPin_8622"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8621'
+         Pins(1)=EdGraphPin'EdGraphPin_8622'
+         NodePosX=144
+         NodePosY=816
+         NodeGuid=9FF9256C4024E62B70CC74823A2BAF52
+      End Object
+      Begin Object Name="K2Node_VariableGet_1098"
+         Begin Object Name="EdGraphPin_8627"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5257.EdGraphPin_8801'
+         End Object
+         Begin Object Name="EdGraphPin_8628"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8627'
+         Pins(1)=EdGraphPin'EdGraphPin_8628'
+         NodePosX=144
+         NodePosY=864
+         NodeGuid=9C4E883248187410B1F941BD4D0BFB3D
+      End Object
+      Begin Object Name="K2Node_CallFunction_5256"
+         Begin Object Name="EdGraphPin_8787"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_195.EdGraphPin_8560'
+         End Object
+         Begin Object Name="EdGraphPin_8788"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5257.EdGraphPin_8799'
+         End Object
+         Begin Object Name="EdGraphPin_8789"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1097.EdGraphPin_8621'
+         End Object
+         Begin Object Name="EdGraphPin_8790"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8787'
+         Pins(1)=EdGraphPin'EdGraphPin_8788'
+         Pins(2)=EdGraphPin'EdGraphPin_8789'
+         Pins(3)=EdGraphPin'EdGraphPin_8790'
+         NodePosX=320
+         NodePosY=704
+         NodeGuid=3733607E4BD1AD22D5E39C86933D63F8
+      End Object
+      Begin Object Name="K2Node_CallFunction_5257"
+         Begin Object Name="EdGraphPin_8799"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5256.EdGraphPin_8788'
+         End Object
+         Begin Object Name="EdGraphPin_8800"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8801"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1098.EdGraphPin_8627'
+         End Object
+         Begin Object Name="EdGraphPin_8802"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8799'
+         Pins(1)=EdGraphPin'EdGraphPin_8800'
+         Pins(2)=EdGraphPin'EdGraphPin_8801'
+         Pins(3)=EdGraphPin'EdGraphPin_8802'
+         NodePosX=704
+         NodePosY=704
+         NodeGuid=3661F07B4D7ED545D9BB8A80CED6C414
+      End Object
+      Begin Object Name="K2Node_CallFunction_5275"
+         Begin Object Name="EdGraphPin_8811"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_204.EdGraphPin_8576'
+         End Object
+         Begin Object Name="EdGraphPin_8812"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5274.EdGraphPin_8823'
+         End Object
+         Begin Object Name="EdGraphPin_8813"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1072.EdGraphPin_8687'
+         End Object
+         Begin Object Name="EdGraphPin_8814"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8811'
+         Pins(1)=EdGraphPin'EdGraphPin_8812'
+         Pins(2)=EdGraphPin'EdGraphPin_8813'
+         Pins(3)=EdGraphPin'EdGraphPin_8814'
+         NodePosX=304
+         NodePosY=1216
+         NodeGuid=87A7827A4659B618BF6CC0AEF67B26B3
+      End Object
+      Begin Object Name="K2Node_CallFunction_5274"
+         Begin Object Name="EdGraphPin_8823"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5275.EdGraphPin_8812'
+         End Object
+         Begin Object Name="EdGraphPin_8824"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8825"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_VariableGet_1065.EdGraphPin_8681'
+         End Object
+         Begin Object Name="EdGraphPin_8826"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8823'
+         Pins(1)=EdGraphPin'EdGraphPin_8824'
+         Pins(2)=EdGraphPin'EdGraphPin_8825'
+         Pins(3)=EdGraphPin'EdGraphPin_8826'
+         NodePosX=704
+         NodePosY=1216
+         NodeGuid=214288A145D0B0A411F8ADA6658A9966
+      End Object
+      Begin Object Name="K2Node_VariableGet_1065"
+         Begin Object Name="EdGraphPin_8681"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5274.EdGraphPin_8825'
+         End Object
+         Begin Object Name="EdGraphPin_8682"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8681'
+         Pins(1)=EdGraphPin'EdGraphPin_8682'
+         NodePosX=96
+         NodePosY=1424
+         NodeGuid=35BE0A8546E727791C9BF5B46B994500
+      End Object
+      Begin Object Name="K2Node_VariableGet_1072"
+         Begin Object Name="EdGraphPin_8687"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_CallFunction_5275.EdGraphPin_8813'
+         End Object
+         Begin Object Name="EdGraphPin_8688"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8687'
+         Pins(1)=EdGraphPin'EdGraphPin_8688'
+         NodePosX=96
+         NodePosY=1360
+         NodeGuid=68BCD5CA4154157D0471DDB2F82779F5
+      End Object
+      Begin Object Name="K2Node_CallFunction_5276"
+         Begin Object Name="EdGraphPin_8835"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:EventGraph.K2Node_ComponentBoundEvent_199.EdGraphPin_8568'
+         End Object
+         Begin Object Name="EdGraphPin_8836"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8837"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetSystemLibrary')
+            DefaultObject=Default__KismetSystemLibrary
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8838"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8839"
+            PinName="Command"
+            PinType=(PinCategory="string")
+            DefaultValue="quit"
+         End Object
+         Begin Object Name="EdGraphPin_8840"
+            PinName="SpecificPlayer"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.PlayerController')
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.KismetSystemLibrary',MemberName="ExecuteConsoleCommand")
+         Pins(0)=EdGraphPin'EdGraphPin_8835'
+         Pins(1)=EdGraphPin'EdGraphPin_8836'
+         Pins(2)=EdGraphPin'EdGraphPin_8837'
+         Pins(3)=EdGraphPin'EdGraphPin_8838'
+         Pins(4)=EdGraphPin'EdGraphPin_8839'
+         Pins(5)=EdGraphPin'EdGraphPin_8840'
+         NodePosX=288
+         NodePosY=976
+         NodeGuid=D99D68AC4529AB78F64A4884993F5860
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_Event'K2Node_Event_155'
+      Nodes(1)=K2Node_Event'K2Node_Event_156'
+      Nodes(2)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_192'
+      Nodes(3)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_195'
+      Nodes(4)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_199'
+      Nodes(5)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_204'
+      Nodes(6)=K2Node_CallFunction'K2Node_CallFunction_5178'
+      Nodes(7)=K2Node_CallFunction'K2Node_CallFunction_5189'
+      Nodes(8)=K2Node_VariableGet'K2Node_VariableGet_1097'
+      Nodes(9)=K2Node_VariableGet'K2Node_VariableGet_1098'
+      Nodes(10)=K2Node_CallFunction'K2Node_CallFunction_5256'
+      Nodes(11)=K2Node_CallFunction'K2Node_CallFunction_5257'
+      Nodes(12)=K2Node_CallFunction'K2Node_CallFunction_5275'
+      Nodes(13)=K2Node_CallFunction'K2Node_CallFunction_5274'
+      Nodes(14)=K2Node_VariableGet'K2Node_VariableGet_1065'
+      Nodes(15)=K2Node_VariableGet'K2Node_VariableGet_1072'
+      Nodes(16)=K2Node_CallFunction'K2Node_CallFunction_5276'
+      bAllowDeletion=False
+      GraphGuid=5918BFF34DD4D23D82FBD3BE68857D4D
+   End Object
+   Begin Object Name="ExecuteUbergraph_MainMenu"
+      Begin Object Name="K2Node_ComponentBoundEvent_12"
+         Begin Object Name="EdGraphPin_25945"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_326.EdGraphPin_26158'
+         End Object
+         Begin Object Name="EdGraphPin_25944"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8505"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         Begin Object Name="EdGraphPin_8512"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="PlayButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25944'
+         Pins(1)=EdGraphPin'EdGraphPin_25945'
+         Pins(2)=EdGraphPin'EdGraphPin_8505'
+         Pins(3)=EdGraphPin'EdGraphPin_8512'
+         NodePosY=464
+         NodeGuid=5576F22246760D9571CF2085C0D7F932
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_11"
+         Begin Object Name="EdGraphPin_25955"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_324.EdGraphPin_26188'
+         End Object
+         Begin Object Name="EdGraphPin_25954"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8506"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         Begin Object Name="EdGraphPin_8511"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="OptionsButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25954'
+         Pins(1)=EdGraphPin'EdGraphPin_25955'
+         Pins(2)=EdGraphPin'EdGraphPin_8506'
+         Pins(3)=EdGraphPin'EdGraphPin_8511'
+         NodePosY=720
+         NodeGuid=3EFDCA8A47A61391282E78AEA15BBCF6
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_10"
+         Begin Object Name="EdGraphPin_25965"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_320.EdGraphPin_26236'
+         End Object
+         Begin Object Name="EdGraphPin_25964"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8507"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         Begin Object Name="EdGraphPin_8510"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="QuitButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25964'
+         Pins(1)=EdGraphPin'EdGraphPin_25965'
+         Pins(2)=EdGraphPin'EdGraphPin_8507'
+         Pins(3)=EdGraphPin'EdGraphPin_8510'
+         NodePosY=976
+         NodeGuid=4FEE582049BDDADB336F85B5C66A1D69
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_9"
+         Begin Object Name="EdGraphPin_25975"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_322.EdGraphPin_26212'
+         End Object
+         Begin Object Name="EdGraphPin_25974"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8508"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         Begin Object Name="EdGraphPin_8509"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="ReturnButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_25974'
+         Pins(1)=EdGraphPin'EdGraphPin_25975'
+         Pins(2)=EdGraphPin'EdGraphPin_8508'
+         Pins(3)=EdGraphPin'EdGraphPin_8509'
+         NodePosY=1232
+         NodeGuid=3EDC33384D4DE93262494CAB8D344D18
+      End Object
+      Begin Object Name="K2Node_CallFunction_326"
+         Begin Object Name="EdGraphPin_26159"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_325.EdGraphPin_26179'
+         End Object
+         Begin Object Name="EdGraphPin_26158"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_12.EdGraphPin_25945'
+         End Object
+         Begin Object Name="EdGraphPin_26160"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.GameplayStatics')
+            DefaultObject=Default__GameplayStatics
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26161"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26162"
+            PinName="LevelName"
+            PinType=(PinCategory="name")
+            DefaultValue="FirstPersonExampleMap"
+            AutogeneratedDefaultValue="None"
+         End Object
+         Begin Object Name="EdGraphPin_26163"
+            PinName="bAbsolute"
+            PinType=(PinCategory="bool")
+            DefaultValue="true"
+            AutogeneratedDefaultValue="true"
+            bAdvancedView=True
+         End Object
+         Begin Object Name="EdGraphPin_26164"
+            PinName="Options"
+            PinType=(PinCategory="string")
+            bAdvancedView=True
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.GameplayStatics',MemberName="OpenLevel")
+         Pins(0)=EdGraphPin'EdGraphPin_26158'
+         Pins(1)=EdGraphPin'EdGraphPin_26159'
+         Pins(2)=EdGraphPin'EdGraphPin_26160'
+         Pins(3)=EdGraphPin'EdGraphPin_26161'
+         Pins(4)=EdGraphPin'EdGraphPin_26162'
+         Pins(5)=EdGraphPin'EdGraphPin_26163'
+         Pins(6)=EdGraphPin'EdGraphPin_26164'
+         NodePosX=272
+         NodePosY=464
+         NodeGuid=FE86F0B745418B84DAAAAA8205F0BF78
+         AdvancedPinDisplay=Hidden
+      End Object
+      Begin Object Name="K2Node_CallFunction_325"
+         Begin Object Name="EdGraphPin_26179"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_326.EdGraphPin_26159'
+         End Object
+         Begin Object Name="EdGraphPin_26180"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26181"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+         End Object
+         FunctionReference=(MemberName="RemoveFromParent",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26179'
+         Pins(1)=EdGraphPin'EdGraphPin_26180'
+         Pins(2)=EdGraphPin'EdGraphPin_26181'
+         NodePosX=592
+         NodePosY=496
+         NodeGuid=83EAEC7E409FF73F236FDABC9474E794
+      End Object
+      Begin Object Name="K2Node_VariableGet_86"
+         Begin Object Name="EdGraphPin_26022"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_324.EdGraphPin_26190'
+         End Object
+         Begin Object Name="EdGraphPin_26023"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26022'
+         Pins(1)=EdGraphPin'EdGraphPin_26023'
+         NodePosX=144
+         NodePosY=816
+         NodeGuid=9FF9256C4024E62B70CC74823A2BAF52
+      End Object
+      Begin Object Name="K2Node_VariableGet_85"
+         Begin Object Name="EdGraphPin_26028"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_323.EdGraphPin_26202'
+         End Object
+         Begin Object Name="EdGraphPin_26029"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26028'
+         Pins(1)=EdGraphPin'EdGraphPin_26029'
+         NodePosX=144
+         NodePosY=864
+         NodeGuid=9C4E883248187410B1F941BD4D0BFB3D
+      End Object
+      Begin Object Name="K2Node_CallFunction_324"
+         Begin Object Name="EdGraphPin_26189"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_323.EdGraphPin_26200'
+         End Object
+         Begin Object Name="EdGraphPin_26188"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_11.EdGraphPin_25955'
+         End Object
+         Begin Object Name="EdGraphPin_26190"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_86.EdGraphPin_26022'
+         End Object
+         Begin Object Name="EdGraphPin_26191"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26188'
+         Pins(1)=EdGraphPin'EdGraphPin_26189'
+         Pins(2)=EdGraphPin'EdGraphPin_26190'
+         Pins(3)=EdGraphPin'EdGraphPin_26191'
+         NodePosX=320
+         NodePosY=704
+         NodeGuid=3733607E4BD1AD22D5E39C86933D63F8
+      End Object
+      Begin Object Name="K2Node_CallFunction_323"
+         Begin Object Name="EdGraphPin_26200"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_324.EdGraphPin_26189'
+         End Object
+         Begin Object Name="EdGraphPin_26201"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26202"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_85.EdGraphPin_26028'
+         End Object
+         Begin Object Name="EdGraphPin_26203"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26200'
+         Pins(1)=EdGraphPin'EdGraphPin_26201'
+         Pins(2)=EdGraphPin'EdGraphPin_26202'
+         Pins(3)=EdGraphPin'EdGraphPin_26203'
+         NodePosX=704
+         NodePosY=704
+         NodeGuid=3661F07B4D7ED545D9BB8A80CED6C414
+      End Object
+      Begin Object Name="K2Node_CallFunction_322"
+         Begin Object Name="EdGraphPin_26214"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_83.EdGraphPin_26088'
+         End Object
+         Begin Object Name="EdGraphPin_26213"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_321.EdGraphPin_26224'
+         End Object
+         Begin Object Name="EdGraphPin_26212"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_9.EdGraphPin_25975'
+         End Object
+         Begin Object Name="EdGraphPin_26215"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26212'
+         Pins(1)=EdGraphPin'EdGraphPin_26213'
+         Pins(2)=EdGraphPin'EdGraphPin_26214'
+         Pins(3)=EdGraphPin'EdGraphPin_26215'
+         NodePosX=304
+         NodePosY=1216
+         NodeGuid=87A7827A4659B618BF6CC0AEF67B26B3
+      End Object
+      Begin Object Name="K2Node_CallFunction_321"
+         Begin Object Name="EdGraphPin_26226"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_84.EdGraphPin_26082'
+         End Object
+         Begin Object Name="EdGraphPin_26224"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_322.EdGraphPin_26213'
+         End Object
+         Begin Object Name="EdGraphPin_26225"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26227"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26224'
+         Pins(1)=EdGraphPin'EdGraphPin_26225'
+         Pins(2)=EdGraphPin'EdGraphPin_26226'
+         Pins(3)=EdGraphPin'EdGraphPin_26227'
+         NodePosX=704
+         NodePosY=1216
+         NodeGuid=214288A145D0B0A411F8ADA6658A9966
+      End Object
+      Begin Object Name="K2Node_VariableGet_84"
+         Begin Object Name="EdGraphPin_26082"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_321.EdGraphPin_26226'
+         End Object
+         Begin Object Name="EdGraphPin_26083"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26082'
+         Pins(1)=EdGraphPin'EdGraphPin_26083'
+         NodePosX=96
+         NodePosY=1424
+         NodeGuid=35BE0A8546E727791C9BF5B46B994500
+      End Object
+      Begin Object Name="K2Node_VariableGet_83"
+         Begin Object Name="EdGraphPin_26088"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_322.EdGraphPin_26214'
+         End Object
+         Begin Object Name="EdGraphPin_26089"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_26088'
+         Pins(1)=EdGraphPin'EdGraphPin_26089'
+         NodePosX=96
+         NodePosY=1360
+         NodeGuid=68BCD5CA4154157D0471DDB2F82779F5
+      End Object
+      Begin Object Name="K2Node_CallFunction_320"
+         Begin Object Name="EdGraphPin_26236"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_10.EdGraphPin_25965'
+         End Object
+         Begin Object Name="EdGraphPin_26237"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_26238"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetSystemLibrary')
+            DefaultObject=Default__KismetSystemLibrary
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26239"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_26240"
+            PinName="Command"
+            PinType=(PinCategory="string")
+            DefaultValue="quit"
+         End Object
+         Begin Object Name="EdGraphPin_26241"
+            PinName="SpecificPlayer"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.PlayerController')
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.KismetSystemLibrary',MemberName="ExecuteConsoleCommand")
+         Pins(0)=EdGraphPin'EdGraphPin_26236'
+         Pins(1)=EdGraphPin'EdGraphPin_26237'
+         Pins(2)=EdGraphPin'EdGraphPin_26238'
+         Pins(3)=EdGraphPin'EdGraphPin_26239'
+         Pins(4)=EdGraphPin'EdGraphPin_26240'
+         Pins(5)=EdGraphPin'EdGraphPin_26241'
+         NodePosX=288
+         NodePosY=976
+         NodeGuid=D99D68AC4529AB78F64A4884993F5860
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_111"
+         Begin Object Name="EdGraphPin_8515"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8516"
+            PinName="EntryPoint"
+            Direction=EGPD_Output
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         CustomGeneratedFunctionName="ExecuteUbergraph_MainMenu"
+         SignatureClass=Class'/Script/CoreUObject.Object'
+         SignatureName="ExecuteUbergraph"
+         Pins(0)=EdGraphPin'EdGraphPin_8515'
+         Pins(1)=EdGraphPin'EdGraphPin_8516'
+         NodePosX=-2000
+         NodePosY=-2000
+         NodeGuid=DC77DD004B35DCC68356BC97F55E4FDB
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_16"
+         Begin Object Name="EdGraphPin_8552"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_337.EdGraphPin_8600'
+         End Object
+         Begin Object Name="EdGraphPin_8551"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8714"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="PlayButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8551'
+         Pins(1)=EdGraphPin'EdGraphPin_8552'
+         Pins(2)=EdGraphPin'EdGraphPin_8714'
+         NodePosY=464
+         NodeGuid=5576F22246760D9571CF2085C0D7F932
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_15"
+         Begin Object Name="EdGraphPin_8560"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_335.EdGraphPin_8633'
+         End Object
+         Begin Object Name="EdGraphPin_8559"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8713"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="OptionsButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8559'
+         Pins(1)=EdGraphPin'EdGraphPin_8560'
+         Pins(2)=EdGraphPin'EdGraphPin_8713'
+         NodePosY=720
+         NodeGuid=3EFDCA8A47A61391282E78AEA15BBCF6
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_14"
+         Begin Object Name="EdGraphPin_8568"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_331.EdGraphPin_8693'
+         End Object
+         Begin Object Name="EdGraphPin_8567"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8712"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="QuitButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8567'
+         Pins(1)=EdGraphPin'EdGraphPin_8568'
+         Pins(2)=EdGraphPin'EdGraphPin_8712'
+         NodePosY=976
+         NodeGuid=4FEE582049BDDADB336F85B5C66A1D69
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_13"
+         Begin Object Name="EdGraphPin_8576"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_333.EdGraphPin_8657'
+         End Object
+         Begin Object Name="EdGraphPin_8575"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8711"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="ReturnButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8575'
+         Pins(1)=EdGraphPin'EdGraphPin_8576'
+         Pins(2)=EdGraphPin'EdGraphPin_8711'
+         NodePosY=1232
+         NodeGuid=3EDC33384D4DE93262494CAB8D344D18
+      End Object
+      Begin Object Name="K2Node_CallFunction_337"
+         Begin Object Name="EdGraphPin_8601"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_336.EdGraphPin_8591'
+         End Object
+         Begin Object Name="EdGraphPin_8600"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_16.EdGraphPin_8552'
+         End Object
+         Begin Object Name="EdGraphPin_8602"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.GameplayStatics')
+            DefaultObject=Default__GameplayStatics
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8603"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8604"
+            PinName="LevelName"
+            PinType=(PinCategory="name")
+            DefaultValue="FirstPersonExampleMap"
+            AutogeneratedDefaultValue="None"
+         End Object
+         Begin Object Name="EdGraphPin_8605"
+            PinName="bAbsolute"
+            PinType=(PinCategory="bool")
+            DefaultValue="true"
+            AutogeneratedDefaultValue="true"
+            bAdvancedView=True
+         End Object
+         Begin Object Name="EdGraphPin_8606"
+            PinName="Options"
+            PinType=(PinCategory="string")
+            bAdvancedView=True
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.GameplayStatics',MemberName="OpenLevel")
+         Pins(0)=EdGraphPin'EdGraphPin_8600'
+         Pins(1)=EdGraphPin'EdGraphPin_8601'
+         Pins(2)=EdGraphPin'EdGraphPin_8602'
+         Pins(3)=EdGraphPin'EdGraphPin_8603'
+         Pins(4)=EdGraphPin'EdGraphPin_8604'
+         Pins(5)=EdGraphPin'EdGraphPin_8605'
+         Pins(6)=EdGraphPin'EdGraphPin_8606'
+         NodePosX=272
+         NodePosY=464
+         NodeGuid=FE86F0B745418B84DAAAAA8205F0BF78
+         AdvancedPinDisplay=Hidden
+      End Object
+      Begin Object Name="K2Node_CallFunction_336"
+         Begin Object Name="EdGraphPin_8591"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_337.EdGraphPin_8601'
+         End Object
+         Begin Object Name="EdGraphPin_8592"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8593"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+         End Object
+         FunctionReference=(MemberName="RemoveFromParent",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8591'
+         Pins(1)=EdGraphPin'EdGraphPin_8592'
+         Pins(2)=EdGraphPin'EdGraphPin_8593'
+         NodePosX=592
+         NodePosY=496
+         NodeGuid=83EAEC7E409FF73F236FDABC9474E794
+      End Object
+      Begin Object Name="K2Node_VariableGet_90"
+         Begin Object Name="EdGraphPin_8621"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_335.EdGraphPin_8635'
+         End Object
+         Begin Object Name="EdGraphPin_8622"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8621'
+         Pins(1)=EdGraphPin'EdGraphPin_8622'
+         NodePosX=144
+         NodePosY=816
+         NodeGuid=9FF9256C4024E62B70CC74823A2BAF52
+      End Object
+      Begin Object Name="K2Node_VariableGet_89"
+         Begin Object Name="EdGraphPin_8627"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_334.EdGraphPin_8647'
+         End Object
+         Begin Object Name="EdGraphPin_8628"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8627'
+         Pins(1)=EdGraphPin'EdGraphPin_8628'
+         NodePosX=144
+         NodePosY=864
+         NodeGuid=9C4E883248187410B1F941BD4D0BFB3D
+      End Object
+      Begin Object Name="K2Node_CallFunction_335"
+         Begin Object Name="EdGraphPin_8634"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_334.EdGraphPin_8645'
+         End Object
+         Begin Object Name="EdGraphPin_8633"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_15.EdGraphPin_8560'
+         End Object
+         Begin Object Name="EdGraphPin_8635"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_90.EdGraphPin_8621'
+         End Object
+         Begin Object Name="EdGraphPin_8636"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8633'
+         Pins(1)=EdGraphPin'EdGraphPin_8634'
+         Pins(2)=EdGraphPin'EdGraphPin_8635'
+         Pins(3)=EdGraphPin'EdGraphPin_8636'
+         NodePosX=320
+         NodePosY=704
+         NodeGuid=3733607E4BD1AD22D5E39C86933D63F8
+      End Object
+      Begin Object Name="K2Node_CallFunction_334"
+         Begin Object Name="EdGraphPin_8645"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_335.EdGraphPin_8634'
+         End Object
+         Begin Object Name="EdGraphPin_8646"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8647"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_89.EdGraphPin_8627'
+         End Object
+         Begin Object Name="EdGraphPin_8648"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8645'
+         Pins(1)=EdGraphPin'EdGraphPin_8646'
+         Pins(2)=EdGraphPin'EdGraphPin_8647'
+         Pins(3)=EdGraphPin'EdGraphPin_8648'
+         NodePosX=704
+         NodePosY=704
+         NodeGuid=3661F07B4D7ED545D9BB8A80CED6C414
+      End Object
+      Begin Object Name="K2Node_CallFunction_333"
+         Begin Object Name="EdGraphPin_8659"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_87.EdGraphPin_8687'
+         End Object
+         Begin Object Name="EdGraphPin_8658"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_332.EdGraphPin_8669'
+         End Object
+         Begin Object Name="EdGraphPin_8657"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_13.EdGraphPin_8576'
+         End Object
+         Begin Object Name="EdGraphPin_8660"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8657'
+         Pins(1)=EdGraphPin'EdGraphPin_8658'
+         Pins(2)=EdGraphPin'EdGraphPin_8659'
+         Pins(3)=EdGraphPin'EdGraphPin_8660'
+         NodePosX=304
+         NodePosY=1216
+         NodeGuid=87A7827A4659B618BF6CC0AEF67B26B3
+      End Object
+      Begin Object Name="K2Node_CallFunction_332"
+         Begin Object Name="EdGraphPin_8671"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_88.EdGraphPin_8681'
+         End Object
+         Begin Object Name="EdGraphPin_8669"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_333.EdGraphPin_8658'
+         End Object
+         Begin Object Name="EdGraphPin_8670"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8672"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8669'
+         Pins(1)=EdGraphPin'EdGraphPin_8670'
+         Pins(2)=EdGraphPin'EdGraphPin_8671'
+         Pins(3)=EdGraphPin'EdGraphPin_8672'
+         NodePosX=704
+         NodePosY=1216
+         NodeGuid=214288A145D0B0A411F8ADA6658A9966
+      End Object
+      Begin Object Name="K2Node_VariableGet_88"
+         Begin Object Name="EdGraphPin_8681"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_332.EdGraphPin_8671'
+         End Object
+         Begin Object Name="EdGraphPin_8682"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8681'
+         Pins(1)=EdGraphPin'EdGraphPin_8682'
+         NodePosX=96
+         NodePosY=1424
+         NodeGuid=35BE0A8546E727791C9BF5B46B994500
+      End Object
+      Begin Object Name="K2Node_VariableGet_87"
+         Begin Object Name="EdGraphPin_8687"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_333.EdGraphPin_8659'
+         End Object
+         Begin Object Name="EdGraphPin_8688"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8687'
+         Pins(1)=EdGraphPin'EdGraphPin_8688'
+         NodePosX=96
+         NodePosY=1360
+         NodeGuid=68BCD5CA4154157D0471DDB2F82779F5
+      End Object
+      Begin Object Name="K2Node_CallFunction_331"
+         Begin Object Name="EdGraphPin_8693"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_14.EdGraphPin_8568'
+         End Object
+         Begin Object Name="EdGraphPin_8694"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8695"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetSystemLibrary')
+            DefaultObject=Default__KismetSystemLibrary
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8696"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8697"
+            PinName="Command"
+            PinType=(PinCategory="string")
+            DefaultValue="quit"
+         End Object
+         Begin Object Name="EdGraphPin_8698"
+            PinName="SpecificPlayer"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.PlayerController')
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.KismetSystemLibrary',MemberName="ExecuteConsoleCommand")
+         Pins(0)=EdGraphPin'EdGraphPin_8693'
+         Pins(1)=EdGraphPin'EdGraphPin_8694'
+         Pins(2)=EdGraphPin'EdGraphPin_8695'
+         Pins(3)=EdGraphPin'EdGraphPin_8696'
+         Pins(4)=EdGraphPin'EdGraphPin_8697'
+         Pins(5)=EdGraphPin'EdGraphPin_8698'
+         NodePosX=288
+         NodePosY=976
+         NodeGuid=D99D68AC4529AB78F64A4884993F5860
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_116"
+         Begin Object Name="EdGraphPin_8717"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8718"
+            PinName="EntryPoint"
+            Direction=EGPD_Output
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         CustomGeneratedFunctionName="ExecuteUbergraph_MainMenu"
+         SignatureClass=Class'/Script/CoreUObject.Object'
+         SignatureName="ExecuteUbergraph"
+         Pins(0)=EdGraphPin'EdGraphPin_8717'
+         Pins(1)=EdGraphPin'EdGraphPin_8718'
+         NodePosX=-2000
+         NodePosY=-2000
+         NodeGuid=3A0410364816922633897EB48FB26642
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_20"
+         Begin Object Name="EdGraphPin_8552"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_348.EdGraphPin_8757'
+         End Object
+         Begin Object Name="EdGraphPin_8551"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8856"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="PlayButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8551'
+         Pins(1)=EdGraphPin'EdGraphPin_8552'
+         Pins(2)=EdGraphPin'EdGraphPin_8856'
+         NodePosY=464
+         NodeGuid=5576F22246760D9571CF2085C0D7F932
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_19"
+         Begin Object Name="EdGraphPin_8560"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_346.EdGraphPin_8787'
+         End Object
+         Begin Object Name="EdGraphPin_8559"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8855"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="OptionsButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8559'
+         Pins(1)=EdGraphPin'EdGraphPin_8560'
+         Pins(2)=EdGraphPin'EdGraphPin_8855'
+         NodePosY=720
+         NodeGuid=3EFDCA8A47A61391282E78AEA15BBCF6
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_18"
+         Begin Object Name="EdGraphPin_8568"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_342.EdGraphPin_8835'
+         End Object
+         Begin Object Name="EdGraphPin_8567"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8854"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="QuitButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8567'
+         Pins(1)=EdGraphPin'EdGraphPin_8568'
+         Pins(2)=EdGraphPin'EdGraphPin_8854'
+         NodePosY=976
+         NodeGuid=4FEE582049BDDADB336F85B5C66A1D69
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_17"
+         Begin Object Name="EdGraphPin_8576"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_344.EdGraphPin_8811'
+         End Object
+         Begin Object Name="EdGraphPin_8575"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'MainMenu_C',MemberName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"))
+         End Object
+         Begin Object Name="EdGraphPin_8853"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate")
+         End Object
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'/Script/UMG.Button'
+         ComponentPropertyName="ReturnButton"
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8575'
+         Pins(1)=EdGraphPin'EdGraphPin_8576'
+         Pins(2)=EdGraphPin'EdGraphPin_8853'
+         NodePosY=1232
+         NodeGuid=3EDC33384D4DE93262494CAB8D344D18
+      End Object
+      Begin Object Name="K2Node_CallFunction_348"
+         Begin Object Name="EdGraphPin_8758"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_347.EdGraphPin_8778'
+         End Object
+         Begin Object Name="EdGraphPin_8757"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_20.EdGraphPin_8552'
+         End Object
+         Begin Object Name="EdGraphPin_8759"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.GameplayStatics')
+            DefaultObject=Default__GameplayStatics
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8760"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8761"
+            PinName="LevelName"
+            PinType=(PinCategory="name")
+            DefaultValue="FirstPersonExampleMap"
+            AutogeneratedDefaultValue="None"
+         End Object
+         Begin Object Name="EdGraphPin_8762"
+            PinName="bAbsolute"
+            PinType=(PinCategory="bool")
+            DefaultValue="true"
+            AutogeneratedDefaultValue="true"
+            bAdvancedView=True
+         End Object
+         Begin Object Name="EdGraphPin_8763"
+            PinName="Options"
+            PinType=(PinCategory="string")
+            bAdvancedView=True
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.GameplayStatics',MemberName="OpenLevel")
+         Pins(0)=EdGraphPin'EdGraphPin_8757'
+         Pins(1)=EdGraphPin'EdGraphPin_8758'
+         Pins(2)=EdGraphPin'EdGraphPin_8759'
+         Pins(3)=EdGraphPin'EdGraphPin_8760'
+         Pins(4)=EdGraphPin'EdGraphPin_8761'
+         Pins(5)=EdGraphPin'EdGraphPin_8762'
+         Pins(6)=EdGraphPin'EdGraphPin_8763'
+         NodePosX=272
+         NodePosY=464
+         NodeGuid=FE86F0B745418B84DAAAAA8205F0BF78
+         AdvancedPinDisplay=Hidden
+      End Object
+      Begin Object Name="K2Node_CallFunction_347"
+         Begin Object Name="EdGraphPin_8778"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_348.EdGraphPin_8758'
+         End Object
+         Begin Object Name="EdGraphPin_8779"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8780"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+         End Object
+         FunctionReference=(MemberName="RemoveFromParent",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8778'
+         Pins(1)=EdGraphPin'EdGraphPin_8779'
+         Pins(2)=EdGraphPin'EdGraphPin_8780'
+         NodePosX=592
+         NodePosY=496
+         NodeGuid=83EAEC7E409FF73F236FDABC9474E794
+      End Object
+      Begin Object Name="K2Node_VariableGet_94"
+         Begin Object Name="EdGraphPin_8621"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_346.EdGraphPin_8789'
+         End Object
+         Begin Object Name="EdGraphPin_8622"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8621'
+         Pins(1)=EdGraphPin'EdGraphPin_8622'
+         NodePosX=144
+         NodePosY=816
+         NodeGuid=9FF9256C4024E62B70CC74823A2BAF52
+      End Object
+      Begin Object Name="K2Node_VariableGet_93"
+         Begin Object Name="EdGraphPin_8627"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_345.EdGraphPin_8801'
+         End Object
+         Begin Object Name="EdGraphPin_8628"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8627'
+         Pins(1)=EdGraphPin'EdGraphPin_8628'
+         NodePosX=144
+         NodePosY=864
+         NodeGuid=9C4E883248187410B1F941BD4D0BFB3D
+      End Object
+      Begin Object Name="K2Node_CallFunction_346"
+         Begin Object Name="EdGraphPin_8788"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_345.EdGraphPin_8799'
+         End Object
+         Begin Object Name="EdGraphPin_8787"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_19.EdGraphPin_8560'
+         End Object
+         Begin Object Name="EdGraphPin_8789"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_94.EdGraphPin_8621'
+         End Object
+         Begin Object Name="EdGraphPin_8790"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8787'
+         Pins(1)=EdGraphPin'EdGraphPin_8788'
+         Pins(2)=EdGraphPin'EdGraphPin_8789'
+         Pins(3)=EdGraphPin'EdGraphPin_8790'
+         NodePosX=320
+         NodePosY=704
+         NodeGuid=3733607E4BD1AD22D5E39C86933D63F8
+      End Object
+      Begin Object Name="K2Node_CallFunction_345"
+         Begin Object Name="EdGraphPin_8799"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_346.EdGraphPin_8788'
+         End Object
+         Begin Object Name="EdGraphPin_8800"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8801"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_93.EdGraphPin_8627'
+         End Object
+         Begin Object Name="EdGraphPin_8802"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8799'
+         Pins(1)=EdGraphPin'EdGraphPin_8800'
+         Pins(2)=EdGraphPin'EdGraphPin_8801'
+         Pins(3)=EdGraphPin'EdGraphPin_8802'
+         NodePosX=704
+         NodePosY=704
+         NodeGuid=3661F07B4D7ED545D9BB8A80CED6C414
+      End Object
+      Begin Object Name="K2Node_CallFunction_344"
+         Begin Object Name="EdGraphPin_8813"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_91.EdGraphPin_8687'
+         End Object
+         Begin Object Name="EdGraphPin_8812"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_343.EdGraphPin_8823'
+         End Object
+         Begin Object Name="EdGraphPin_8811"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_17.EdGraphPin_8576'
+         End Object
+         Begin Object Name="EdGraphPin_8814"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Hidden"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8811'
+         Pins(1)=EdGraphPin'EdGraphPin_8812'
+         Pins(2)=EdGraphPin'EdGraphPin_8813'
+         Pins(3)=EdGraphPin'EdGraphPin_8814'
+         NodePosX=304
+         NodePosY=1216
+         NodeGuid=87A7827A4659B618BF6CC0AEF67B26B3
+      End Object
+      Begin Object Name="K2Node_CallFunction_343"
+         Begin Object Name="EdGraphPin_8825"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.Widget')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_VariableGet_92.EdGraphPin_8681'
+         End Object
+         Begin Object Name="EdGraphPin_8823"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_344.EdGraphPin_8812'
+         End Object
+         Begin Object Name="EdGraphPin_8824"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8826"
+            PinName="InVisibility"
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/UMG.ESlateVisibility')
+            DefaultValue="Visible"
+         End Object
+         FunctionReference=(MemberName="SetVisibility",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8823'
+         Pins(1)=EdGraphPin'EdGraphPin_8824'
+         Pins(2)=EdGraphPin'EdGraphPin_8825'
+         Pins(3)=EdGraphPin'EdGraphPin_8826'
+         NodePosX=704
+         NodePosY=1216
+         NodeGuid=214288A145D0B0A411F8ADA6658A9966
+      End Object
+      Begin Object Name="K2Node_VariableGet_92"
+         Begin Object Name="EdGraphPin_8681"
+            PinName="MainMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_343.EdGraphPin_8825'
+         End Object
+         Begin Object Name="EdGraphPin_8682"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8681'
+         Pins(1)=EdGraphPin'EdGraphPin_8682'
+         NodePosX=96
+         NodePosY=1424
+         NodeGuid=35BE0A8546E727791C9BF5B46B994500
+      End Object
+      Begin Object Name="K2Node_VariableGet_91"
+         Begin Object Name="EdGraphPin_8687"
+            PinName="OptionsMenu"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/UMG.VerticalBox')
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_CallFunction_344.EdGraphPin_8813'
+         End Object
+         Begin Object Name="EdGraphPin_8688"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=WidgetBlueprintGeneratedClass'MainMenu_C')
+            bHidden=True
+         End Object
+         VariableReference=(MemberName="OptionsMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8687'
+         Pins(1)=EdGraphPin'EdGraphPin_8688'
+         NodePosX=96
+         NodePosY=1360
+         NodeGuid=68BCD5CA4154157D0471DDB2F82779F5
+      End Object
+      Begin Object Name="K2Node_CallFunction_342"
+         Begin Object Name="EdGraphPin_8835"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:ExecuteUbergraph_MainMenu.K2Node_ComponentBoundEvent_18.EdGraphPin_8568'
+         End Object
+         Begin Object Name="EdGraphPin_8836"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8837"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetSystemLibrary')
+            DefaultObject=Default__KismetSystemLibrary
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8838"
+            PinName="WorldContextObject"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_8839"
+            PinName="Command"
+            PinType=(PinCategory="string")
+            DefaultValue="quit"
+         End Object
+         Begin Object Name="EdGraphPin_8840"
+            PinName="SpecificPlayer"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.PlayerController')
+         End Object
+         FunctionReference=(MemberParent=Class'/Script/Engine.KismetSystemLibrary',MemberName="ExecuteConsoleCommand")
+         Pins(0)=EdGraphPin'EdGraphPin_8835'
+         Pins(1)=EdGraphPin'EdGraphPin_8836'
+         Pins(2)=EdGraphPin'EdGraphPin_8837'
+         Pins(3)=EdGraphPin'EdGraphPin_8838'
+         Pins(4)=EdGraphPin'EdGraphPin_8839'
+         Pins(5)=EdGraphPin'EdGraphPin_8840'
+         NodePosX=288
+         NodePosY=976
+         NodeGuid=D99D68AC4529AB78F64A4884993F5860
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_121"
+         Begin Object Name="EdGraphPin_8859"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8860"
+            PinName="EntryPoint"
+            Direction=EGPD_Output
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         CustomGeneratedFunctionName="ExecuteUbergraph_MainMenu"
+         SignatureClass=Class'/Script/CoreUObject.Object'
+         SignatureName="ExecuteUbergraph"
+         Pins(0)=EdGraphPin'EdGraphPin_8859'
+         Pins(1)=EdGraphPin'EdGraphPin_8860'
+         NodePosX=-2000
+         NodePosY=-2000
+         NodeGuid=9F3B91DC4A78DB191221739E800AD7AD
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_CallFunction'K2Node_CallFunction_342'
+      Nodes(1)=K2Node_VariableGet'K2Node_VariableGet_91'
+      Nodes(2)=K2Node_VariableGet'K2Node_VariableGet_92'
+      Nodes(3)=K2Node_CallFunction'K2Node_CallFunction_343'
+      Nodes(4)=K2Node_CallFunction'K2Node_CallFunction_344'
+      Nodes(5)=K2Node_CallFunction'K2Node_CallFunction_345'
+      Nodes(6)=K2Node_CallFunction'K2Node_CallFunction_346'
+      Nodes(7)=K2Node_VariableGet'K2Node_VariableGet_93'
+      Nodes(8)=K2Node_VariableGet'K2Node_VariableGet_94'
+      Nodes(9)=K2Node_CallFunction'K2Node_CallFunction_347'
+      Nodes(10)=K2Node_CallFunction'K2Node_CallFunction_348'
+      Nodes(11)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_17'
+      Nodes(12)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_18'
+      Nodes(13)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_19'
+      Nodes(14)=K2Node_ComponentBoundEvent'K2Node_ComponentBoundEvent_20'
+      Nodes(15)=K2Node_FunctionEntry'K2Node_FunctionEntry_121'
+      GraphGuid=8B22D29B40D510C116849FB158B05DB0
+   End Object
+   Begin Object Name="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_FunctionEntry_112"
+         Begin Object Name="EdGraphPin_8517"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_327.EdGraphPin_8518'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8517'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=D8DCE77B4C9FDC656CF3A1BA4CBAA517
+      End Object
+      Begin Object Name="K2Node_CallFunction_327"
+         Begin Object Name="EdGraphPin_8518"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_112.EdGraphPin_8517'
+         End Object
+         Begin Object Name="EdGraphPin_8519"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8520"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8521"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8518'
+         Pins(1)=EdGraphPin'EdGraphPin_8519'
+         Pins(2)=EdGraphPin'EdGraphPin_8520'
+         Pins(3)=EdGraphPin'EdGraphPin_8521'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=78922D1A40BD48EEBC4FCEB15890A524
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_117"
+         Begin Object Name="EdGraphPin_8719"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_338.EdGraphPin_8720'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8719'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=85B55EDA419EF08A70E10EA911DE94E8
+      End Object
+      Begin Object Name="K2Node_CallFunction_338"
+         Begin Object Name="EdGraphPin_8720"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_117.EdGraphPin_8719'
+         End Object
+         Begin Object Name="EdGraphPin_8721"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8722"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8723"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8720'
+         Pins(1)=EdGraphPin'EdGraphPin_8721'
+         Pins(2)=EdGraphPin'EdGraphPin_8722'
+         Pins(3)=EdGraphPin'EdGraphPin_8723'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=3B790291442DD1952F90599669E12113
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_122"
+         Begin Object Name="EdGraphPin_8861"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_349.EdGraphPin_8862'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8861'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=13A460754EEF9CFBC7997DAF34909E92
+      End Object
+      Begin Object Name="K2Node_CallFunction_349"
+         Begin Object Name="EdGraphPin_8862"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__ReturnButton_K2Node_ComponentBoundEvent_203_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_122.EdGraphPin_8861'
+         End Object
+         Begin Object Name="EdGraphPin_8863"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8864"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8865"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8862'
+         Pins(1)=EdGraphPin'EdGraphPin_8863'
+         Pins(2)=EdGraphPin'EdGraphPin_8864'
+         Pins(3)=EdGraphPin'EdGraphPin_8865'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=2F28233B4CD1FCEEBB9A039ED93A178E
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_122'
+      Nodes(1)=K2Node_CallFunction'K2Node_CallFunction_349'
+      GraphGuid=A74C17034073F92133CCC69B3E126C0F
+   End Object
+   Begin Object Name="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_FunctionEntry_113"
+         Begin Object Name="EdGraphPin_8522"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_328.EdGraphPin_8523'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8522'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=F26EE7A348CB76996C683F935C539692
+      End Object
+      Begin Object Name="K2Node_CallFunction_328"
+         Begin Object Name="EdGraphPin_8523"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_113.EdGraphPin_8522'
+         End Object
+         Begin Object Name="EdGraphPin_8524"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8525"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8526"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8523'
+         Pins(1)=EdGraphPin'EdGraphPin_8524'
+         Pins(2)=EdGraphPin'EdGraphPin_8525'
+         Pins(3)=EdGraphPin'EdGraphPin_8526'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=A772ED4147B5864A7144478812A064E3
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_118"
+         Begin Object Name="EdGraphPin_8724"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_339.EdGraphPin_8725'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8724'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=4B8B56B04CC411D7146F29BC86D3E712
+      End Object
+      Begin Object Name="K2Node_CallFunction_339"
+         Begin Object Name="EdGraphPin_8725"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_118.EdGraphPin_8724'
+         End Object
+         Begin Object Name="EdGraphPin_8726"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8727"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8728"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8725'
+         Pins(1)=EdGraphPin'EdGraphPin_8726'
+         Pins(2)=EdGraphPin'EdGraphPin_8727'
+         Pins(3)=EdGraphPin'EdGraphPin_8728'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=C1E9AB4F42481FFE5CE5FEBC3FCC2048
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_123"
+         Begin Object Name="EdGraphPin_8866"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_350.EdGraphPin_8867'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8866'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=DDA0B06141B23AF960CA4ABC3FB24694
+      End Object
+      Begin Object Name="K2Node_CallFunction_350"
+         Begin Object Name="EdGraphPin_8867"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__QuitButton_K2Node_ComponentBoundEvent_198_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_123.EdGraphPin_8866'
+         End Object
+         Begin Object Name="EdGraphPin_8868"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8869"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8870"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8867'
+         Pins(1)=EdGraphPin'EdGraphPin_8868'
+         Pins(2)=EdGraphPin'EdGraphPin_8869'
+         Pins(3)=EdGraphPin'EdGraphPin_8870'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=96EC4AA4451389E0AD798688C0D6E2F8
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_123'
+      Nodes(1)=K2Node_CallFunction'K2Node_CallFunction_350'
+      GraphGuid=BFD3500F46F738B5A5B2028939AA71B3
+   End Object
+   Begin Object Name="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_FunctionEntry_114"
+         Begin Object Name="EdGraphPin_8527"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_329.EdGraphPin_8528'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8527'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=A941ED124BF1B3BC6586C18109ECE495
+      End Object
+      Begin Object Name="K2Node_CallFunction_329"
+         Begin Object Name="EdGraphPin_8528"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_114.EdGraphPin_8527'
+         End Object
+         Begin Object Name="EdGraphPin_8529"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8530"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8531"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8528'
+         Pins(1)=EdGraphPin'EdGraphPin_8529'
+         Pins(2)=EdGraphPin'EdGraphPin_8530'
+         Pins(3)=EdGraphPin'EdGraphPin_8531'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=22D016C74D7275FB8D52FCB2823D4262
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_119"
+         Begin Object Name="EdGraphPin_8729"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_340.EdGraphPin_8730'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8729'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=35F7A96E42B065C9C28168AB1A801278
+      End Object
+      Begin Object Name="K2Node_CallFunction_340"
+         Begin Object Name="EdGraphPin_8730"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_119.EdGraphPin_8729'
+         End Object
+         Begin Object Name="EdGraphPin_8731"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8732"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8733"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8730'
+         Pins(1)=EdGraphPin'EdGraphPin_8731'
+         Pins(2)=EdGraphPin'EdGraphPin_8732'
+         Pins(3)=EdGraphPin'EdGraphPin_8733'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=0D3431344B492D818894B7A88743D0A8
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_124"
+         Begin Object Name="EdGraphPin_8871"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_351.EdGraphPin_8872'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8871'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=77E9810E45432AC2857251994D67109F
+      End Object
+      Begin Object Name="K2Node_CallFunction_351"
+         Begin Object Name="EdGraphPin_8872"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__OptionsButton_K2Node_ComponentBoundEvent_194_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_124.EdGraphPin_8871'
+         End Object
+         Begin Object Name="EdGraphPin_8873"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8874"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8875"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8872'
+         Pins(1)=EdGraphPin'EdGraphPin_8873'
+         Pins(2)=EdGraphPin'EdGraphPin_8874'
+         Pins(3)=EdGraphPin'EdGraphPin_8875'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=4ACD6BEC4C00AE6634FD22947F532AE5
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_124'
+      Nodes(1)=K2Node_CallFunction'K2Node_CallFunction_351'
+      GraphGuid=8B2002074E8A6D75B72DAC893B7D4119
+   End Object
+   Begin Object Name="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_FunctionEntry_115"
+         Begin Object Name="EdGraphPin_8532"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_330.EdGraphPin_8533'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8532'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=777F365B45BC8F39C3DD3AAFBFF96A2A
+      End Object
+      Begin Object Name="K2Node_CallFunction_330"
+         Begin Object Name="EdGraphPin_8533"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_115.EdGraphPin_8532'
+         End Object
+         Begin Object Name="EdGraphPin_8534"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8535"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8536"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8533'
+         Pins(1)=EdGraphPin'EdGraphPin_8534'
+         Pins(2)=EdGraphPin'EdGraphPin_8535'
+         Pins(3)=EdGraphPin'EdGraphPin_8536'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=30B0C93640EE50466B58F49F733EFCEC
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_120"
+         Begin Object Name="EdGraphPin_8734"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_341.EdGraphPin_8735'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8734'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=585C9EBE445AC64DC0EEE08C9F45458C
+      End Object
+      Begin Object Name="K2Node_CallFunction_341"
+         Begin Object Name="EdGraphPin_8735"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_120.EdGraphPin_8734'
+         End Object
+         Begin Object Name="EdGraphPin_8736"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8737"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8738"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8735'
+         Pins(1)=EdGraphPin'EdGraphPin_8736'
+         Pins(2)=EdGraphPin'EdGraphPin_8737'
+         Pins(3)=EdGraphPin'EdGraphPin_8738'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=6717D08241AE69B55CF0D3987E741DAF
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_125"
+         Begin Object Name="EdGraphPin_8876"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_352.EdGraphPin_8877'
+         End Object
+         CustomGeneratedFunctionName="BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature"
+         SignatureName="OnButtonClickedEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_8876'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=3F85A29142D8A3A80F9A6A8552B30F78
+      End Object
+      Begin Object Name="K2Node_CallFunction_352"
+         Begin Object Name="EdGraphPin_8877"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'MainMenu:BndEvt__PlayButton_K2Node_ComponentBoundEvent_191_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_125.EdGraphPin_8876'
+         End Object
+         Begin Object Name="EdGraphPin_8878"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_8879"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=WidgetBlueprintGeneratedClass'SKEL_MainMenu_C')
+         End Object
+         Begin Object Name="EdGraphPin_8880"
+            PinName="EntryPoint"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_MainMenu",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_8877'
+         Pins(1)=EdGraphPin'EdGraphPin_8878'
+         Pins(2)=EdGraphPin'EdGraphPin_8879'
+         Pins(3)=EdGraphPin'EdGraphPin_8880'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=A3A987F347567574FA983E95168501C4
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_125'
+      Nodes(1)=K2Node_CallFunction'K2Node_CallFunction_352'
+      GraphGuid=2B4A87EB47EE83A7DB024F9C8BC2FB92
+   End Object
+   WidgetTree=WidgetTree
+   ParentClass=Class'/Script/UMG.UserWidget'
+   UbergraphPages(0)=EdGraph'EventGraph'
+   CategorySorting(0)="Main Menu"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObject=EdGraph'EventGraph',SavedViewOffset=(X=-254.955444,Y=320.285736),SavedZoomAmount=0.875000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'MainMenu_C'
+   bLegacyNeedToPurgeSkelRefs=False
+   bLegacyGeneratedClassIsAuthoritative=True
+   BlueprintGuid=57343FF04467284ABE7917A73B435DD5
+End Object
